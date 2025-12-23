@@ -27,7 +27,8 @@ public class ApiAnalytics {
                          timestamp: TimeInterval?,
                          type: ApiAnalyticsType,
                          belongPage: String?,
-                         extra: [String: Any]? = nil)
+                         extra: [String: Any]? = nil,
+                         onError: ((ApiAnalyticsModel) -> Void)? = nil)
     {
         let newTimestamp = timestamp ?? Date().timeIntervalSince1970 * 1000
         
@@ -72,6 +73,7 @@ public class ApiAnalytics {
                                           extra: extra)
                 failedEvents.append(model)
                 failedEventsLock.unlock()
+                onError?(model)
             }
         }
     }
