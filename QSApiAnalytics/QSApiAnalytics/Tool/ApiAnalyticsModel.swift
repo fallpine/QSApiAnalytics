@@ -8,13 +8,13 @@
 import Foundation
 
 public struct ApiAnalyticsModel {
-    var sessionId: String
-    var eventCode: String
-    var eventName: String
-    var eventType: ApiAnalyticsType
-    var timestamp: TimeInterval
-    var belongPage: String?
-    var extra: Dictionary<String, Any>?
+    public var sessionId: String
+    public var eventCode: String
+    public var eventName: String
+    public var eventType: ApiAnalyticsType
+    public var timestamp: TimeInterval
+    public var belongPage: String?
+    public var extra: Dictionary<String, Any>?
 }
 
 /// 打点事件类型
@@ -31,7 +31,7 @@ public enum ApiAnalyticsType {
     case state
     case error
     
-    var typeCode: String {
+    public var typeCode: String {
         switch self {
         case .appIn:
             return "in"
@@ -59,7 +59,7 @@ public enum ApiAnalyticsType {
     }
     
     // firebase打点的数据类型
-    var firebaseTypeCode: String {
+    public var firebaseTypeCode: String {
         switch self {
         case .appIn:
             return "in"
@@ -86,7 +86,7 @@ public enum ApiAnalyticsType {
         }
     }
     
-    var eventNamePrefix: String {
+    public var eventNamePrefix: String {
         switch self {
         case .appIn:
             return "@name"
