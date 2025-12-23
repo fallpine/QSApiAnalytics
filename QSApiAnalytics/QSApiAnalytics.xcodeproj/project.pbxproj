@@ -7,13 +7,43 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1F177B252EFA7095008B8697 /* QSApiAnalyticsWatch Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = 1F177B182EFA7093008B8697 /* QSApiAnalyticsWatch Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4111DEB96E2F859DF706763E /* Pods_QSApiAnalyticsWatch_Watch_App.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6BA1EDB44FB306AEF7E46E21 /* Pods_QSApiAnalyticsWatch_Watch_App.framework */; };
 		98D46191A8698FB2F01D93AE /* Pods_QSApiAnalytics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D133472727839CFE61D1B03A /* Pods_QSApiAnalytics.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		1F177B232EFA7095008B8697 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 1F177A512EFA4A39008B8697 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 1F177B172EFA7093008B8697;
+			remoteInfo = "QSApiAnalyticsWatch Watch App";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		1F177B262EFA7095008B8697 /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				1F177B252EFA7095008B8697 /* QSApiAnalyticsWatch Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		193A421B2E39D96B0D55CDAB /* Pods-QSApiAnalyticsWatch Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSApiAnalyticsWatch Watch App.release.xcconfig"; path = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App.release.xcconfig"; sourceTree = "<group>"; };
 		1F177A592EFA4A39008B8697 /* QSApiAnalytics.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QSApiAnalytics.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1F177B182EFA7093008B8697 /* QSApiAnalyticsWatch Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "QSApiAnalyticsWatch Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E7383032894B20DB765F514 /* Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig"; path = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig"; sourceTree = "<group>"; };
 		50A436F8429DE6DCD1FD87FC /* Pods-QSApiAnalytics.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSApiAnalytics.release.xcconfig"; path = "Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics.release.xcconfig"; sourceTree = "<group>"; };
 		5FFFF7A25B4E4844353DF7D4 /* Pods-QSApiAnalytics.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-QSApiAnalytics.debug.xcconfig"; path = "Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics.debug.xcconfig"; sourceTree = "<group>"; };
+		6BA1EDB44FB306AEF7E46E21 /* Pods_QSApiAnalyticsWatch_Watch_App.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSApiAnalyticsWatch_Watch_App.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		D133472727839CFE61D1B03A /* Pods_QSApiAnalytics.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_QSApiAnalytics.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -25,6 +55,14 @@
 			);
 			target = 1F177A582EFA4A39008B8697 /* QSApiAnalytics */;
 		};
+		1F177B2B2EFA70D1008B8697 /* Exceptions for "QSApiAnalytics" folder in "QSApiAnalyticsWatch Watch App" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Tool/ApiAnalytics.swift,
+				Tool/ApiAnalyticsModel.swift,
+			);
+			target = 1F177B172EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */;
+		};
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,8 +70,14 @@
 			isa = PBXFileSystemSynchronizedRootGroup;
 			exceptions = (
 				1F177A952EFA4A55008B8697 /* Exceptions for "QSApiAnalytics" folder in "QSApiAnalytics" target */,
+				1F177B2B2EFA70D1008B8697 /* Exceptions for "QSApiAnalytics" folder in "QSApiAnalyticsWatch Watch App" target */,
 			);
 			path = QSApiAnalytics;
+			sourceTree = "<group>";
+		};
+		1F177B192EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = "QSApiAnalyticsWatch Watch App";
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
@@ -47,6 +91,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F177B152EFA7093008B8697 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4111DEB96E2F859DF706763E /* Pods_QSApiAnalyticsWatch_Watch_App.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -54,6 +106,7 @@
 			isa = PBXGroup;
 			children = (
 				D133472727839CFE61D1B03A /* Pods_QSApiAnalytics.framework */,
+				6BA1EDB44FB306AEF7E46E21 /* Pods_QSApiAnalyticsWatch_Watch_App.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -62,6 +115,7 @@
 			isa = PBXGroup;
 			children = (
 				1F177A8D2EFA4A55008B8697 /* QSApiAnalytics */,
+				1F177B192EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */,
 				1F177A5A2EFA4A39008B8697 /* Products */,
 				FE4024CF15606BA40435EBD6 /* Pods */,
 				19C6274D14975B85D7204146 /* Frameworks */,
@@ -72,6 +126,7 @@
 			isa = PBXGroup;
 			children = (
 				1F177A592EFA4A39008B8697 /* QSApiAnalytics.app */,
+				1F177B182EFA7093008B8697 /* QSApiAnalyticsWatch Watch App.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -81,6 +136,8 @@
 			children = (
 				5FFFF7A25B4E4844353DF7D4 /* Pods-QSApiAnalytics.debug.xcconfig */,
 				50A436F8429DE6DCD1FD87FC /* Pods-QSApiAnalytics.release.xcconfig */,
+				4E7383032894B20DB765F514 /* Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig */,
+				193A421B2E39D96B0D55CDAB /* Pods-QSApiAnalyticsWatch Watch App.release.xcconfig */,
 			);
 			path = Pods;
 			sourceTree = "<group>";
@@ -97,10 +154,12 @@
 				1F177A562EFA4A39008B8697 /* Frameworks */,
 				1F177A572EFA4A39008B8697 /* Resources */,
 				EAE85C249B077E00EDA71A19 /* [CP] Embed Pods Frameworks */,
+				1F177B262EFA7095008B8697 /* Embed Watch Content */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				1F177B242EFA7095008B8697 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
 				1F177A8D2EFA4A55008B8697 /* QSApiAnalytics */,
@@ -108,6 +167,28 @@
 			name = QSApiAnalytics;
 			productName = QSApiAnalytics;
 			productReference = 1F177A592EFA4A39008B8697 /* QSApiAnalytics.app */;
+			productType = "com.apple.product-type.application";
+		};
+		1F177B172EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1F177B292EFA7095008B8697 /* Build configuration list for PBXNativeTarget "QSApiAnalyticsWatch Watch App" */;
+			buildPhases = (
+				B3AD5C85ABE62EF542D26A22 /* [CP] Check Pods Manifest.lock */,
+				1F177B142EFA7093008B8697 /* Sources */,
+				1F177B152EFA7093008B8697 /* Frameworks */,
+				1F177B162EFA7093008B8697 /* Resources */,
+				86F3B3720995C649F247702B /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				1F177B192EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */,
+			);
+			name = "QSApiAnalyticsWatch Watch App";
+			productName = "QSApiAnalyticsWatch Watch App";
+			productReference = 1F177B182EFA7093008B8697 /* QSApiAnalyticsWatch Watch App.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -121,6 +202,9 @@
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
 					1F177A582EFA4A39008B8697 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+					1F177B172EFA7093008B8697 = {
 						CreatedOnToolsVersion = 16.2;
 					};
 				};
@@ -140,12 +224,20 @@
 			projectRoot = "";
 			targets = (
 				1F177A582EFA4A39008B8697 /* QSApiAnalytics */,
+				1F177B172EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
 		1F177A572EFA4A39008B8697 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		1F177B162EFA7093008B8697 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -171,6 +263,45 @@
 			);
 			outputPaths = (
 				"$(DERIVED_FILE_DIR)/Pods-QSApiAnalytics-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F3B3720995C649F247702B /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B3AD5C85ABE62EF542D26A22 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-QSApiAnalyticsWatch Watch App-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -204,7 +335,22 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F177B142EFA7093008B8697 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		1F177B242EFA7095008B8697 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 1F177B172EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */;
+			targetProxy = 1F177B232EFA7095008B8697 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
 		1F177A6D2EFA4A3A008B8697 /* Debug */ = {
@@ -388,6 +534,70 @@
 			};
 			name = Release;
 		};
+		1F177B272EFA7095008B8697 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E7383032894B20DB765F514 /* Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QSApiAnalyticsWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X8PB93M4JK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QSApiAnalyticsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wa.QSApiAnalytics;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wa.QSApiAnalytics.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Debug;
+		};
+		1F177B282EFA7095008B8697 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 193A421B2E39D96B0D55CDAB /* Pods-QSApiAnalyticsWatch Watch App.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"QSApiAnalyticsWatch Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = X8PB93M4JK;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = QSApiAnalyticsWatch;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wa.QSApiAnalytics;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wa.QSApiAnalytics.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -405,6 +615,15 @@
 			buildConfigurations = (
 				1F177A6D2EFA4A3A008B8697 /* Debug */,
 				1F177A6E2EFA4A3A008B8697 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1F177B292EFA7095008B8697 /* Build configuration list for PBXNativeTarget "QSApiAnalyticsWatch Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1F177B272EFA7095008B8697 /* Debug */,
+				1F177B282EFA7095008B8697 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

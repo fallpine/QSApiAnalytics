@@ -240,6 +240,7 @@ public class ApiAnalytics {
     
     /// 监听网络状态
     private func networkReachabilityChanged() {
+#if os(iOS)
         networkReachabilityManager = NetworkReachabilityManager()
         
         networkReachabilityManager?.startListening(onUpdatePerforming: { [weak self] status in
@@ -251,6 +252,7 @@ public class ApiAnalytics {
                 break
             }
         })
+#endif
     }
     
     private func myPrint(_ items: Any...) {
@@ -260,7 +262,9 @@ public class ApiAnalytics {
     }
     
     // MARK: - Property
+#if os(iOS)
     private var networkReachabilityManager: NetworkReachabilityManager?
+#endif
     private var userid = ""
     private var api = ""
     private var systemVersion = ""

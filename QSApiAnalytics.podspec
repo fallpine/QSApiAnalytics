@@ -13,5 +13,4 @@ Pod::Spec.new do |spec|
   spec.source_files  = "QSApiAnalytics/QSApiAnalytics/Tool/*.{swift}"
   spec.dependency "QSNetRequest"
   spec.dependency "QSIpLocation"
-  spec.dependency "Alamofire"
 end
