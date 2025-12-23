@@ -172,11 +172,12 @@ public class ApiAnalytics {
                 extraContent = objectToJsonString(extra!) ?? ""
             }
             
+            let name = eventType.eventNamePrefix.replacingOccurrences(of: "@name", with: eventName)
             var paraDict = [
                 "sessionId": sessionId,
                 "uuid": userid,
                 "eventCode": eventCode,
-                "eventName": eventName,
+                "eventName": name,
                 "eventType": eventType.typeCode,
                 "eventTime": timestamp,
                 "userIp": model?.ip ?? "",
@@ -206,7 +207,7 @@ public class ApiAnalytics {
             .responseData(completionHandler: { [weak self] response in
                 switch response.result {
                 case .success(_):
-                    self?.myPrint("打点：", eventCode, eventName, eventType.typeCode, belongPage ?? "", extraContent)
+                    self?.myPrint("打点：", eventCode, name, eventType.typeCode, belongPage ?? "", extraContent)
                     onSuccess()
                     
                 case .failure(let err):
