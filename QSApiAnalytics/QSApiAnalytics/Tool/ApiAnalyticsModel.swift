@@ -18,7 +18,7 @@ public struct ApiAnalyticsModel {
 }
 
 /// 打点事件类型
-public enum ApiAnalyticsType {
+public enum ApiAnalyticsType: String {
     case appIn
     case appOut
     case pageIn
