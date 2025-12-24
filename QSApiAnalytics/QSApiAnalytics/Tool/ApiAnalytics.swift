@@ -30,7 +30,7 @@ public class ApiAnalytics {
                          extra: [String: Any]? = nil,
                          onError: ((ApiAnalyticsModel) -> Void)? = nil)
     {
-        let newTimestamp = timestamp ?? Date().timeIntervalSince1970 * 1000
+        let newTimestamp = timestamp ?? getCurrentTimestamp()
         
         if type == .pageIn {
             // 退出上一个页面
@@ -76,6 +76,11 @@ public class ApiAnalytics {
                 onError?(model)
             }
         }
+    }
+    
+    /// 获取当前时间戳
+    public func getCurrentTimestamp() -> TimeInterval {
+        return Date().timeIntervalSince1970 * 1000
     }
     
     /// 更新sessionId
