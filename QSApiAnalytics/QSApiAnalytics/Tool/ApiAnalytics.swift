@@ -89,7 +89,10 @@ public class ApiAnalytics {
     }
     
     /// 获取当前页面信息
-    public func getCurrentPageData() -> [String: Any] {
+    public func getCurrentPageData() -> [String: Any]? {
+        if currentPageCode.isEmpty {
+            return nil
+        }
         return [
             "code": currentPageCode,
             "name": currentPageName,
@@ -102,6 +105,9 @@ public class ApiAnalytics {
         if let code = pageData?["code"] as? String,
            let name = pageData?["name"] as? String
         {
+            if code.isEmpty {
+                return
+            }
             let extra = pageData?["extra"] as? [String: Any]
             
             addEvent(code: code,
