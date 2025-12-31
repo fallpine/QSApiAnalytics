@@ -8,6 +8,7 @@
 import Foundation
 import Alamofire
 import QSIpLocation
+import QSModelConvert
 
 public class ApiAnalytics {
     // MARK: - Func
@@ -27,7 +28,8 @@ public class ApiAnalytics {
                          timestamp: TimeInterval?,
                          type: ApiAnalyticsType,
                          belongPage: String?,
-                         extra: [String: Any]? = nil,
+                         extra: [String: String]? = nil,
+                         onSuccess: (() -> Void)? = nil,
                          onError: ((ApiAnalyticsModel) -> Void)? = nil)
     {
         let newTimestamp = timestamp ?? getCurrentTimestamp()
@@ -60,10 +62,10 @@ public class ApiAnalytics {
                        eventType: type,
                        belongPage: belongPage,
                        extra: extra) {
+                onSuccess?()
             } onFailure: { [weak self] in
                 guard let `self` = self else { return }
                 
-                failedEventsLock.lock()
                 let model = ApiAnalyticsModel(sessionId: sessionId,
                                           eventCode: code,
                                           eventName: name,
@@ -71,8 +73,6 @@ public class ApiAnalytics {
                                           timestamp: newTimestamp,
                                           belongPage: belongPage,
                                           extra: extra)
-                failedEvents.append(model)
-                failedEventsLock.unlock()
                 onError?(model)
             }
         }
@@ -108,7 +108,7 @@ public class ApiAnalytics {
             if code.isEmpty {
                 return
             }
-            let extra = pageData?["extra"] as? [String: Any]
+            let extra = pageData?["extra"] as? [String: String]
             
             addEvent(code: code,
                      name: name,
@@ -119,43 +119,53 @@ public class ApiAnalytics {
         }
     }
     
+#if os(iOS)
     /// 重新发送失败的事件
-    private func resendFailedEvents() {
-        if isSending { return }
-        if failedEvents.isEmpty { return }
-        
-        isSending = true
-        
-        DispatchQueue.global().async { [weak self] in
-            guard let self = self else { return }
+    private func resendErrorEvents() {
+        DispatchQueue.main.async { [weak self] in
+            let models = ApiAnalyticsErrorEventDatabase.shared.getDatas() ?? []
+            if models.isEmpty {
+                return
+            }
             
-            while true {
-                failedEventsLock.lock()
-                guard !failedEvents.isEmpty else {
-                    failedEventsLock.unlock()
-                    break
+            var count = 0
+            for model in models {
+                if self?.endSendFailureEvents ?? true {
+                    return
                 }
-                let model = failedEvents.removeFirst()
-                failedEventsLock.unlock()
                 
-                requestApi(sessionId: model.sessionId,
-                           eventCode: model.eventCode,
-                           eventName: model.eventName,
-                           timestamp: model.timestamp,
-                           eventType: model.eventType,
-                           belongPage: model.belongPage,
-                           extra: model.extra) {
-                    // 成功无需处理
-                } onFailure: { [weak self] in
-                    guard let self = self else { return }
+                guard let data = model.data,
+                      let dataModel = ModelConvert.stringToModel(data, modelType: ApiAnalyticsModel.self) else {
+                    count += 1
+                    if count == models.count {
+                        self?.resendErrorEvents()
+                    }
+                    continue
+                }
+                
+                self?.addEvent(code: dataModel.eventCode,
+                         name: dataModel.eventName,
+                         timestamp: dataModel.timestamp,
+                         type: dataModel.eventType,
+                         belongPage: dataModel.belongPage,
+                               extra: dataModel.extra) { [weak self] in
+                    // 删除数据库数据
+                    _ = ApiAnalyticsErrorEventDatabase.shared.delete(data: model)
                     
-                    failedEventsLock.lock()
-                    failedEvents.append(model)
-                    failedEventsLock.unlock()
+                    count += 1
+                    if count == models.count {
+                        self?.resendErrorEvents()
+                    }
+                } onError: { [weak self] _ in
+                    count += 1
+                    if count == models.count {
+                        self?.resendErrorEvents()
+                    }
                 }
             }
         }
     }
+#endif // os(iOS)
     
     /// 打点事件
     /// - Parameters:
@@ -260,13 +270,16 @@ public class ApiAnalytics {
         networkReachabilityManager?.startListening(onUpdatePerforming: { [weak self] status in
             switch status {
             case .reachable(_):
-                self?.resendFailedEvents()
+                self?.endSendFailureEvents = false
+                self?.resendErrorEvents()
+            case .notReachable:
+                self?.endSendFailureEvents = true
                 
             default:
                 break
             }
         })
-#endif
+#endif // os(iOS)
     }
     
     private func myPrint(_ items: Any...) {
@@ -278,6 +291,7 @@ public class ApiAnalytics {
     // MARK: - Property
 #if os(iOS)
     private var networkReachabilityManager: NetworkReachabilityManager?
+    private var endSendFailureEvents = false
 #endif
     private var userid = ""
     private var api = ""
@@ -287,12 +301,7 @@ public class ApiAnalytics {
     
     public var currentPageCode = ""
     private var currentPageName = ""
-    private var currentPageExtra: [String: Any]?
-    
-    // 发送失败的点
-    private var failedEvents = [ApiAnalyticsModel]()
-    private var isSending = false
-    private let failedEventsLock = NSLock()
+    private var currentPageExtra: [String: String]?
     
     // MARK: - 单例
     private static var _sharedInstance: ApiAnalytics?

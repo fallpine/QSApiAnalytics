@@ -7,18 +7,18 @@
 
 import Foundation
 
-public struct ApiAnalyticsModel {
+public struct ApiAnalyticsModel: Codable {
     public var sessionId: String
     public var eventCode: String
     public var eventName: String
     public var eventType: ApiAnalyticsType
     public var timestamp: TimeInterval
     public var belongPage: String?
-    public var extra: Dictionary<String, Any>?
+    public var extra: Dictionary<String, String>?
 }
 
 /// 打点事件类型
-public enum ApiAnalyticsType: String {
+public enum ApiAnalyticsType: String, Codable {
     case appIn
     case appOut
     case pageIn
