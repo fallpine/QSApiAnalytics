@@ -94,9 +94,11 @@ class ApiAnalyticsErrorEventDatabase {
         // 创建表
         createTable()
     }
+#endif // os(iOS)
 }
 
 final class ApiAnalyticsErrorEventModel: TableCodable {
+#if os(iOS)
     enum CodingKeys: String, CodingTableKey {
         typealias Root = ApiAnalyticsErrorEventModel
         static let objectRelationalMapping = TableBinding(CodingKeys.self)
