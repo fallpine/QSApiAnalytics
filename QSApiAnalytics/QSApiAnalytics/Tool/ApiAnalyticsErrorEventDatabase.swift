@@ -7,13 +7,12 @@
 
 #if os(iOS)
 import WCDBSwift
-#endif // os(iOS)
+
 
 private let kDbName = "ApiAnalyticsErrorEventDbName"
 private let kDbTable = "ApiAnalyticsErrorEventTable"
 
 class ApiAnalyticsErrorEventDatabase {
-#if os(iOS)
     // MARK: - Func
     /// 初始化数据库
     private func initDataBase() {
@@ -94,9 +93,8 @@ class ApiAnalyticsErrorEventDatabase {
         // 创建表
         createTable()
     }
-#endif // os(iOS)
 }
-#if os(iOS)
+
 final class ApiAnalyticsErrorEventModel: TableCodable {
 
     enum CodingKeys: String, CodingTableKey {

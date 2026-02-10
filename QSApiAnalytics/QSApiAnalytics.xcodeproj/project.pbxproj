@@ -58,7 +58,10 @@
 		1F177B2B2EFA70D1008B8697 /* Exceptions for "QSApiAnalytics" folder in "QSApiAnalyticsWatch Watch App" target */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
+				Tool/ApiAnalytics.swift,
+				Tool/ApiAnalyticsErrorEventDatabase.swift,
 				Tool/ApiAnalyticsModel.swift,
+				Tool/JsonParser.swift,
 			);
 			target = 1F177B172EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */;
 		};
@@ -368,7 +371,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X8PB93M4JK;
+				DEVELOPMENT_TEAM = 6482M4N7Q7;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QSApiAnalytics/Info.plist;
@@ -382,7 +385,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wa.QSApiAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -399,7 +402,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = X8PB93M4JK;
+				DEVELOPMENT_TEAM = 6482M4N7Q7;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = QSApiAnalytics/Info.plist;
@@ -413,7 +416,7 @@
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				MARKETING_VERSION = 1.1.0;
+				MARKETING_VERSION = 1.1.3;
 				PRODUCT_BUNDLE_IDENTIFIER = com.wa.QSApiAnalytics;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -550,7 +553,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QSApiAnalyticsWatch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = X8PB93M4JK;
+				DEVELOPMENT_TEAM = 6482M4N7Q7;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
@@ -582,7 +585,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"QSApiAnalyticsWatch Watch App/Preview Content\"";
-				DEVELOPMENT_TEAM = X8PB93M4JK;
+				DEVELOPMENT_TEAM = 6482M4N7Q7;
 				ENABLE_PREVIEWS = YES;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
 				GENERATE_INFOPLIST_FILE = YES;
