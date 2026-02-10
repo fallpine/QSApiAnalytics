@@ -15,11 +15,13 @@ public class ApiAnalytics {
     public func initialize(userid: String,
                            api: String,
                            systemVersion: String,
-                           appVersion: String) {
+                           appVersion: String,
+                           ignoreFailedEventCodes: [String]) {
         self.userid = userid
         self.api = api
         self.systemVersion = systemVersion
         self.appVersion = appVersion
+        self.ignoreFailedEventCodes = ignoreFailedEventCodes
     }
     
     /// 打点
@@ -66,14 +68,24 @@ public class ApiAnalytics {
             } onFailure: { [weak self] in
                 guard let `self` = self else { return }
                 
-                let model = ApiAnalyticsModel(sessionId: sessionId,
-                                          eventCode: code,
-                                          eventName: name,
-                                          eventType: type,
-                                          timestamp: newTimestamp,
-                                          belongPage: belongPage,
-                                          extra: extra)
-                onError?(model)
+                
+                if !ignoreFailedEventCodes.contains(code) {
+                    let model = ApiAnalyticsModel(sessionId: sessionId,
+                                              eventCode: code,
+                                              eventName: name,
+                                              eventType: type,
+                                              timestamp: newTimestamp,
+                                              belongPage: belongPage,
+                                              extra: extra)
+                    // 记录出错的事件
+                    if let modelDict = ModelConvert.modelToJSON(model),
+                        let jsonStr = JsonParser.dictToJsonString(modelDict) {
+                        var errorModel = ApiAnalyticsErrorEventModel.init()
+                        errorModel.data = jsonStr
+                        _ = ApiAnalyticsErrorEventDatabase.shared.insert(data: errorModel)
+                    }
+                    onError?(model)
+                }
             }
         }
     }
@@ -189,8 +201,8 @@ public class ApiAnalytics {
             guard let `self` = self else { return }
             
             var extraContent = ""
-            if extra != nil {
-                extraContent = objectToJsonString(extra!) ?? ""
+            if let extra = extra {
+                extraContent = JsonParser.dictToJsonString(extra) ?? ""
             }
             
             let name = eventType.eventNamePrefix.replacingOccurrences(of: "@name", with: eventName)
@@ -239,29 +251,6 @@ public class ApiAnalytics {
         }
     }
     
-    /// 对象转Json字符串
-    ///
-    /// - Parameter obj: 对象
-    /// - Returns: Json字符串
-    private func objectToJsonString(_ obj: Any) -> String? {
-        var jsonString: String?
-        
-        if let jsonData = try? JSONSerialization.data(withJSONObject: obj, options: JSONSerialization.WritingOptions.prettyPrinted) {
-            jsonString = String.init(data: jsonData, encoding: String.Encoding.utf8)
-        }
-        
-        guard var jsonString = jsonString else { return nil }
-        
-        // 去掉字符串中的空格
-        let range: NSRange = NSRange.init(location: 0, length: jsonString.count)
-        jsonString = jsonString.replacingOccurrences(of: " ", with: "", options: String.CompareOptions.literal, range: Range.init(range, in: jsonString))
-        // 去掉字符串中的换行符
-        let range1: NSRange = NSRange.init(location: 0, length: jsonString.count)
-        jsonString = jsonString.replacingOccurrences(of: "\n", with: "", options: String.CompareOptions.literal, range: Range.init(range1, in: jsonString))
-        
-        return jsonString
-    }
-    
     /// 监听网络状态
     private func networkReachabilityChanged() {
 #if os(iOS)
@@ -297,6 +286,7 @@ public class ApiAnalytics {
     private var api = ""
     private var systemVersion = ""
     private var appVersion = ""
+    private var ignoreFailedEventCodes = [String]()
     private var sessionId = UUID().uuidString
     
     public var currentPageCode = ""
