@@ -78,12 +78,15 @@ public class ApiAnalytics {
                                               belongPage: belongPage,
                                               extra: extra)
                     // 记录出错的事件
+#if os(iOS)
                     if let modelDict = ModelConvert.modelToJSON(model),
                         let jsonStr = JsonParser.dictToJsonString(modelDict) {
                         var errorModel = ApiAnalyticsErrorEventModel.init()
                         errorModel.data = jsonStr
                         _ = ApiAnalyticsErrorEventDatabase.shared.insert(data: errorModel)
                     }
+#endif
+                    
                     onError?(model)
                 }
             }
