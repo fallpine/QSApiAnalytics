@@ -68,7 +68,6 @@ public class ApiAnalytics {
             } onFailure: { [weak self] in
                 guard let `self` = self else { return }
                 
-                
                 if !ignoreFailedEventCodes.contains(code) {
                     let model = ApiAnalyticsModel(sessionId: sessionId,
                                               eventCode: code,
@@ -81,7 +80,7 @@ public class ApiAnalytics {
 #if os(iOS)
                     if let modelDict = ModelConvert.modelToJSON(model),
                         let jsonStr = JsonParser.dictToJsonString(modelDict) {
-                        var errorModel = ApiAnalyticsErrorEventModel.init()
+                        let errorModel = ApiAnalyticsErrorEventModel.init()
                         errorModel.data = jsonStr
                         _ = ApiAnalyticsErrorEventDatabase.shared.insert(data: errorModel)
                     }
