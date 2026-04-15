@@ -17,5 +17,5 @@ public class IpLocationModel: Decodable {
     public var lon: Double?
     public var lat: Double?
     public var zip: String?
-    public var query: String?   // ip地址
+    public var query: String?
 }
