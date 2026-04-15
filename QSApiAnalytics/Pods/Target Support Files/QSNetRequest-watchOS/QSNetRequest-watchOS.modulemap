@@ -1,0 +1,6 @@
+framework module QSNetRequest {
+  umbrella header "QSNetRequest-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

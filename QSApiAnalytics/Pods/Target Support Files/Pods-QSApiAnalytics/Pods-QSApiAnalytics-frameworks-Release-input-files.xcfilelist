@@ -1,0 +1,9 @@
+${PODS_ROOT}/Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-iOS/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/OptimizedSQLCipher/sqlcipher.framework
+${BUILT_PRODUCTS_DIR}/QSIpLocation-iOS/QSIpLocation.framework
+${BUILT_PRODUCTS_DIR}/QSJsonParser-iOS/QSJsonParser.framework
+${BUILT_PRODUCTS_DIR}/QSModelConvert-iOS/QSModelConvert.framework
+${BUILT_PRODUCTS_DIR}/QSNetRequest-iOS/QSNetRequest.framework
+${BUILT_PRODUCTS_DIR}/SQLiteRepair/sqliterk.framework
+${BUILT_PRODUCTS_DIR}/WCDBSwift/WCDBSwift.framework

@@ -1,0 +1,6 @@
+framework module QSJsonParser {
+  umbrella header "QSJsonParser-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -215,7 +215,7 @@ public class ApiAnalytics {
                 "eventName": name,
                 "eventType": eventType.typeCode,
                 "eventTime": timestamp,
-                "userIp": model?.ip ?? "",
+                "userIp": model?.query ?? "",
                 "countryCode": model?.country ?? "",
                 "cityCode": model?.city ?? "",
                 "systemVersion": systemVersion,

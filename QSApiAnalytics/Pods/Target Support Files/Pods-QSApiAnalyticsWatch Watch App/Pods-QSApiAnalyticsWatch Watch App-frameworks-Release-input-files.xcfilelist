@@ -1,0 +1,6 @@
+${PODS_ROOT}/Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-frameworks.sh
+${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework
+${BUILT_PRODUCTS_DIR}/QSIpLocation-watchOS/QSIpLocation.framework
+${BUILT_PRODUCTS_DIR}/QSJsonParser-watchOS/QSJsonParser.framework
+${BUILT_PRODUCTS_DIR}/QSModelConvert-watchOS/QSModelConvert.framework
+${BUILT_PRODUCTS_DIR}/QSNetRequest-watchOS/QSNetRequest.framework

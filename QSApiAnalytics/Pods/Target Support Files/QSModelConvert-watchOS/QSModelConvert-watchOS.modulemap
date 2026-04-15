@@ -1,0 +1,6 @@
+framework module QSModelConvert {
+  umbrella header "QSModelConvert-watchOS-umbrella.h"
+
+  export *
+  module * { export * }
+}

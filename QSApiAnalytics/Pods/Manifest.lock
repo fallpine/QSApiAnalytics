@@ -1,0 +1,48 @@
+PODS:
+  - Alamofire (5.11.0)
+  - OptimizedSQLCipher (1.2.2)
+  - QSIpLocation (1.0.1):
+    - QSModelConvert
+    - QSNetRequest
+  - QSJsonParser (1.0.0)
+  - QSModelConvert (1.0.0)
+  - QSNetRequest (1.0.1):
+    - Alamofire
+    - QSJsonParser
+  - SQLiteRepair (1.2.2):
+    - OptimizedSQLCipher
+  - WCDBSwift (1.0.2):
+    - OptimizedSQLCipher
+    - SQLiteRepair
+
+DEPENDENCIES:
+  - QSIpLocation
+  - QSIpLocation (= 1.0.1)
+  - QSModelConvert
+  - QSNetRequest
+  - WCDBSwift
+
+SPEC REPOS:
+  trunk:
+    - Alamofire
+    - OptimizedSQLCipher
+    - QSIpLocation
+    - QSJsonParser
+    - QSModelConvert
+    - QSNetRequest
+    - SQLiteRepair
+    - WCDBSwift
+
+SPEC CHECKSUMS:
+  Alamofire: bd5e7b23a1a750975288482c1831d71e74415f86
+  OptimizedSQLCipher: 92a1bf5cc94139e1da49de9c883ff9891bcd2a37
+  QSIpLocation: c02fa7f1483b92174814ba639152297192db549d
+  QSJsonParser: 632a18784242ef37e08cf06eba269c3990cc7020
+  QSModelConvert: cd25f4414ad1cb640169d953894a54057794bcce
+  QSNetRequest: 2e3a062768a2a5bd56dba31d4a1607975e8851ba
+  SQLiteRepair: 65ac4472667ac8cdeb93c3765f2fcae4dd259204
+  WCDBSwift: 6687dc2d4bebce2b237017ca367730f5f8409e67
+
+PODFILE CHECKSUM: 8585354056ad0fe389fe04df1d4ea7fb73ff0e43
+
+COCOAPODS: 1.16.2
