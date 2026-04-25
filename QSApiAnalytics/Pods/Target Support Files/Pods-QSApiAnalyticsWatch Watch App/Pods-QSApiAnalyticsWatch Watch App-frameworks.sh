@@ -179,14 +179,12 @@ if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QSIpLocation-watchOS/QSIpLocation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QSJsonParser-watchOS/QSJsonParser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QSModelConvert-watchOS/QSModelConvert.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QSNetRequest-watchOS/QSNetRequest.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "${BUILT_PRODUCTS_DIR}/Alamofire-watchOS/Alamofire.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QSIpLocation-watchOS/QSIpLocation.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QSJsonParser-watchOS/QSJsonParser.framework"
-  install_framework "${BUILT_PRODUCTS_DIR}/QSModelConvert-watchOS/QSModelConvert.framework"
   install_framework "${BUILT_PRODUCTS_DIR}/QSNetRequest-watchOS/QSNetRequest.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then

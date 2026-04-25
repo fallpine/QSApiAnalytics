@@ -16,6 +16,5 @@ target 'QSApiAnalyticsWatch Watch App' do
   use_frameworks!
   pod 'QSNetRequest'
   pod 'QSIpLocation'
-  pod 'QSModelConvert'
 
 end

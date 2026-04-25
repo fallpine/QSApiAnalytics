@@ -8,13 +8,15 @@
 import Foundation
 import Alamofire
 import QSIpLocation
-import QSModelConvert
 import QSJsonParser
+#if os(iOS) && canImport(WCDBSwift) && canImport(QSModelConvert)
+import QSModelConvert
+#endif
 
 /// API 打点管理器。
 ///
 /// 使用前需要先调用 `initialize(userid:api:systemVersion:appVersion:ignoreFailedEventCodes:)`
-/// 完成配置初始化。普通打点请求失败后会落库保存，网络恢复时会自动重试。
+/// 完成配置初始化。iOS 普通打点请求失败后会落库保存，网络恢复时会自动重试。
 public class ApiAnalytics {
     // MARK: - Func
     /// 初始化打点配置。
@@ -36,7 +38,7 @@ public class ApiAnalytics {
         self.ignoreFailedEventCodes = ignoreFailedEventCodes
         isInitialized = true
         
-#if os(iOS) && canImport(WCDBSwift)
+#if os(iOS) && canImport(WCDBSwift) && canImport(QSModelConvert)
         retryErrorEventsIfNeeded()
 #endif
     }
@@ -154,7 +156,7 @@ public class ApiAnalytics {
         }
     }
     
-#if os(iOS) && canImport(WCDBSwift)
+#if os(iOS) && canImport(WCDBSwift) && canImport(QSModelConvert)
     /// 在网络可用且配置已初始化时，串行重试本地保存的失败事件。
     ///
     /// 重试过程中不会再次落库，避免同一条失败事件重复增长。
@@ -205,7 +207,7 @@ public class ApiAnalytics {
             }
         }
     }
-#endif // os(iOS) && canImport(WCDBSwift)
+#endif // os(iOS) && canImport(WCDBSwift) && canImport(QSModelConvert)
     
     /// 发送打点事件，并根据需要在失败时落库。
     /// - Parameters:
@@ -246,7 +248,7 @@ public class ApiAnalytics {
             return
         }
         
-#if os(iOS) && canImport(WCDBSwift)
+#if os(iOS) && canImport(WCDBSwift) && canImport(QSModelConvert)
         if let modelDict = ModelConvert.modelToJSON(event),
            let jsonStr = JsonParser.objectToString(with: modelDict) {
             _ = ApiAnalyticsErrorEventDatabase.shared.insertEventJSON(jsonStr)
@@ -329,7 +331,7 @@ public class ApiAnalytics {
             switch status {
             case .reachable(_):
                 self?.isNetworkReachable = true
-#if canImport(WCDBSwift)
+#if canImport(WCDBSwift) && canImport(QSModelConvert)
                 self?.retryErrorEventsIfNeeded()
 #endif
             case .notReachable:
@@ -372,7 +374,7 @@ public class ApiAnalytics {
     /// 当前网络是否可用。
     private var isNetworkReachable = true
 #endif
-#if os(iOS) && canImport(WCDBSwift)
+#if os(iOS) && canImport(WCDBSwift) && canImport(QSModelConvert)
     /// 失败事件重试串行队列。
     private let retryQueue = DispatchQueue(label: "com.qs.apiAnalytics.retryQueue")
     /// 是否正在重试失败事件。

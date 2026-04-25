@@ -61,7 +61,6 @@
 		1B5E47FDEBF9E18B70BDA212D0AA3E55 /* OptimizedSQLCipher-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = B9323F23C4B6D7DC5D146CCC484593F2 /* OptimizedSQLCipher-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1BFD6B95B0B6E399AB8325D93D014EEF /* mutex.h in Headers */ = {isa = PBXBuildFile; fileRef = 9B25CDE4BE6C79BA9491FD55C357F408 /* mutex.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		1C398BD3847F6B527A0043F2828FDB98 /* bitvec.c in Sources */ = {isa = PBXBuildFile; fileRef = 2B50C55CFA2F0D15A33C9890CD718CF1 /* bitvec.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		1CA8739AF242650CEA9D6DA1AD6C829F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1797A8083367E5E9F7E5F4F1D24F498 /* Foundation.framework */; };
 		1E388030AC35BDBF2DEFBC0E89D17DFB /* HandleStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9B91365532482BC52261AC7F01EE6FB4 /* HandleStatement.swift */; };
 		1E3DAD1D1207B39148AA2A1E023371FD /* os_wcdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 6523B3F6B3AFEF72E056AF747BA6BC16 /* os_wcdb.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		1F57A8BCF6FCAC70277DF25DA687EBB6 /* WCDBTokenize.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9D6E7AF0A85D5F82AE4BA07607F141F /* WCDBTokenize.swift */; };
@@ -125,6 +124,7 @@
 		44E22DABEE24C2CE6E1D2E2B8F67A99D /* AlamofireExtended.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43B95B3F914B9000E53EEB66780786CF /* AlamofireExtended.swift */; };
 		4541EC7592A89C01B9598B480AD0359D /* update.c in Sources */ = {isa = PBXBuildFile; fileRef = 27342B73ECF4BD521A96710522C32303 /* update.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		463B0307708D8C72E775059AE7FF6D4A /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BE958B2C29F4AEC63908D572310E3 /* RedirectHandler.swift */; };
+		46F257C0050EB04B994D68B107C23442 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685DE068DB17923980CEB8552D55A3 /* Foundation.framework */; };
 		4739D5B25B97261274B6723165503CFB /* fts3_tokenizer1.c in Sources */ = {isa = PBXBuildFile; fileRef = B3542D8569D2A3E43E1719E09DB0D261 /* fts3_tokenizer1.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		476B7F92E95960FCC6C8330F9A8184F0 /* Atomic.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8FD79F653E50B57F39E397ACEB6CE8D /* Atomic.swift */; };
 		476C00AF47D5452673769D0C7AB059DB /* HTTPHeaders.swift in Sources */ = {isa = PBXBuildFile; fileRef = BD41735A691E4FBA3C2CA4A517CD419D /* HTTPHeaders.swift */; };
@@ -169,10 +169,10 @@
 		5C49ADDB46467ED0D93DA218EAE16A94 /* RequestInterceptor.swift in Sources */ = {isa = PBXBuildFile; fileRef = A04737B65F30BB527D8A121D32686B03 /* RequestInterceptor.swift */; };
 		5C9121BD83C40F202853E25639508A24 /* malloc.c in Sources */ = {isa = PBXBuildFile; fileRef = 4F1430AA0A12AC14CF28F29AFE725770 /* malloc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		611C06624548487EBFD335F2F00BDBDD /* keywordhash.h in Headers */ = {isa = PBXBuildFile; fileRef = ACD1B43603C2B4E039DF198E11A6E718 /* keywordhash.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6300108429F5E7290E9FFB379701FEB5 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685DE068DB17923980CEB8552D55A3 /* Foundation.framework */; };
 		64643943695B81B2F5EF89F98371F86D /* fkey.c in Sources */ = {isa = PBXBuildFile; fileRef = CF6D08A09E22D5AB7D1BB41890E20A1C /* fkey.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		64D90F5FE621A257D93227B83181B499 /* QSJsonParser-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7A1B6A89D31F7319B65FCDB3C8FC4B2D /* QSJsonParser-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		656B1762FA3CD58CBA7C324C996E659A /* RWLock.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5634C998EF7A06730FBBDCE6B9352E88 /* RWLock.swift */; };
-		658DD0F6EF33DC77EDE5A096B240DB71 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1797A8083367E5E9F7E5F4F1D24F498 /* Foundation.framework */; };
 		668DC0BE186518AA3E608F44B8F8ECFF /* os_wcdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 51BD7D7721FEFA4D94AB8C842582BE42 /* os_wcdb.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		66941988E36C1C69980707431F97CFCB /* Master.swift in Sources */ = {isa = PBXBuildFile; fileRef = 524D80D2E7300D137E3E4D5E586D080D /* Master.swift */; };
 		69A2DF0E7F4AE52677F5D44C05954FA8 /* WebSocketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5710C13CB0CD16250872EBCACC6C5FB9 /* WebSocketRequest.swift */; };
@@ -193,7 +193,6 @@
 		6F8C4FD3F3B5DBE67D9D14736272AC75 /* fts3_hash.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E0ABD4A743664D026E8855C09CD5ACD /* fts3_hash.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		7011DCA6F05C0E16BF402772F86B2577 /* mem2.c in Sources */ = {isa = PBXBuildFile; fileRef = 181468E8D67A499FABE4683DA9585585 /* mem2.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		702FF9D57655B45E500B26AA3421D13E /* DownloadRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E6F5D727821F27DD547C89A7DFE8AC8 /* DownloadRequest.swift */; };
-		72E1F10E5DEEF29E23FEE52C9D7954C9 /* Pods-QSApiAnalyticsWatch Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1336A6BA738CC873F01E72CD46729E5E /* Pods-QSApiAnalyticsWatch Watch App-dummy.m */; };
 		736ED2B6AF5BCBB0A27BEF06179B4E4A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685DE068DB17923980CEB8552D55A3 /* Foundation.framework */; };
 		7386E1CF303AB4CA6DACF3D333D3B359 /* CommonStatement.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2201E3214646CE131DA542508F69005 /* CommonStatement.swift */; };
 		74219D9176C1B095A335A582E904D52E /* rtree.c in Sources */ = {isa = PBXBuildFile; fileRef = 079F9A14CD623A8BB0899E55B6E33F95 /* rtree.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -202,6 +201,7 @@
 		74DCE73D81EB42A4F2463A78F60A3AB0 /* msvc.h in Headers */ = {isa = PBXBuildFile; fileRef = ABE1569924BB78C5DEC8CB20AA0D4F03 /* msvc.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		74DD2CA90F2B51D6BAFB5B57C5E21095 /* OfflineRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0BC6FAB36E723A7232E9BEF0A629B /* OfflineRetrier.swift */; };
 		74EF361B85584C45404716E107C5B5FC /* StatementRollback.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9A5B7E48228B0DB6E0C9845B15FD1DEC /* StatementRollback.swift */; };
+		761CC496EFCF51B32B14B359C5EE3D5A /* Pods-QSApiAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11D5C92496012F792B0984EF8FE727 /* Pods-QSApiAnalytics-dummy.m */; };
 		762185A2E8192CC44F2C9340B78FA927 /* fts3_write.c in Sources */ = {isa = PBXBuildFile; fileRef = 5384B393A89B595A4E63C4909F9D0534 /* fts3_write.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		768A49FA7D957AE2080D84E42FE9D814 /* sqlite3rtree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9D672C9A1C78AD01F5AAB7803AC3B905 /* sqlite3rtree.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		76D9A2B6355F7505EDCA62ED1A8688F9 /* threads.c in Sources */ = {isa = PBXBuildFile; fileRef = B6F296B0BA2B156551FF2D386B1ED37B /* threads.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -217,10 +217,10 @@
 		7EFE94C77CFEB3C7C68C31007F183FEA /* vdbetrace.c in Sources */ = {isa = PBXBuildFile; fileRef = 084AC70EA73DE52D7AA0F24A24DC2F92 /* vdbetrace.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		803487EA6E70F35CDBE27EEF786BF2B2 /* sqlite3rbu.h in Headers */ = {isa = PBXBuildFile; fileRef = A776FBA9CD97C9BC6920E1EFEC73034F /* sqlite3rbu.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		803C17F953A5B302E76FDC8CCF4AF136 /* whereInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CE3864217E33A780B762E9367E9D782 /* whereInt.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		80FD98E545667C049C982A26A395CFC4 /* ModelConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = B98D70DB37E655BAC9D222BCF44C28FF /* ModelConvert.swift */; };
 		814B687A6A651827AA366F7081ADF4BD /* wal.c in Sources */ = {isa = PBXBuildFile; fileRef = 1F887D27966956D5CE64135826BDE0DA /* wal.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8181B2759ED835092D31808BC5C39D7E /* sqliterk_values.h in Headers */ = {isa = PBXBuildFile; fileRef = D6888B3AB442D950DCF8DE1CB43CB5C6 /* sqliterk_values.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		828E0CC0E51D016C570FC76A13E3BF9F /* Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38C3D6AFAD0F714C74F3056FE73A113B /* Convenience.swift */; };
-		82D9EDAF1A2CBF4E7AC0C5DADDC9EA36 /* Pods-QSApiAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63808E9B2B159FF70595DD41E4BB862 /* Pods-QSApiAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		83C02416898164DC3CAEB53F791009E5 /* fts3_tokenize_vtab.c in Sources */ = {isa = PBXBuildFile; fileRef = 186B5AAA2734AF229EB25222CF689EBE /* fts3_tokenize_vtab.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		83F4CF1D7F6939CA8F7D169C72C869BD /* StatementCreateTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0622F9DB5776B5152FC8F1E2376EFE4D /* StatementCreateTable.swift */; };
 		84372AA09D4C08BAA99537A0E9DC5792 /* fts3_tokenizer.h in Headers */ = {isa = PBXBuildFile; fileRef = B71670346A9E1EAEBA774B5814915A90 /* fts3_tokenizer.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -257,11 +257,9 @@
 		9912182AA1F58F083BDB9FF91677ED97 /* alter.c in Sources */ = {isa = PBXBuildFile; fileRef = 9BFDA4D5CA4BD81C26E98C7ECF72D6DC /* alter.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9ADC45F45D784CEDE86F102F36786215 /* vdbeapi.c in Sources */ = {isa = PBXBuildFile; fileRef = A218A6D069A9AF04D546AE19CDD41880 /* vdbeapi.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9C2A21B0F0BBF048295DD96F6C0F010C /* mutex_wcdb.c in Sources */ = {isa = PBXBuildFile; fileRef = 3C586F94C617679E7304DAC898303C8C /* mutex_wcdb.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		9C6547121FEF1348B289F70D90F36BD6 /* QSModelConvert-watchOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = E6DB63BAC8F20C6651820F2856EA075F /* QSModelConvert-watchOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		9C996D6FAB4EBD6B723BAEE32D1D74F4 /* crypto_cc.c in Sources */ = {isa = PBXBuildFile; fileRef = 58FC0B1DD049D372C25553B5515D3B8E /* crypto_cc.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		9D21981100226EAFC2CE091EC817E3CD /* Subquery.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CDE78A19C18AA0FFE5FB3161E823EFF /* Subquery.swift */; };
 		9D34D018F6A5574A93C9A364BB72A603 /* MultipartFormData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8492B1E442EC862F036A8F469C096622 /* MultipartFormData.swift */; };
-		9E093577FF97C75556D97D4B3650B213 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685DE068DB17923980CEB8552D55A3 /* Foundation.framework */; };
 		9E0BCA83FA6170570DD81502FD285429 /* os_setup.h in Headers */ = {isa = PBXBuildFile; fileRef = C36916966E74ECDFE408AA0775F44F49 /* os_setup.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9E9A69217254B4C16FDE3342D428C5EB /* RequestCompression.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6E6321DC814585A281984FC351DB645 /* RequestCompression.swift */; };
 		9F48632EA4ABDF5DE0B23FDA04665463 /* StatementDelete.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8256416A7E25E86D65C6B98D2761A6E /* StatementDelete.swift */; };
@@ -269,6 +267,7 @@
 		A0BFC66F0D1EC85A4A35FD468705A03A /* hash.c in Sources */ = {isa = PBXBuildFile; fileRef = E3CC79815A89B98228C1CD9F7D032F44 /* hash.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A14FA48C1852519707028EEF1B4452D4 /* TableInterface.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6908F5A65B3764F47F58139D0903FF61 /* TableInterface.swift */; };
 		A1B9D3323DBDFE4F3300689B4AF9F75E /* WebSocketRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5710C13CB0CD16250872EBCACC6C5FB9 /* WebSocketRequest.swift */; };
+		A392A6E569FA18DBF4B1113C4D227942 /* Pods-QSApiAnalyticsWatch Watch App-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 1336A6BA738CC873F01E72CD46729E5E /* Pods-QSApiAnalyticsWatch Watch App-dummy.m */; };
 		A4E6271066C5D8F390FB0EC26D699184 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89FCA02C40E047E34848A66265473D71 /* Error.swift */; };
 		A4EE008A2AC1D061F4A9FF227D2DB4B9 /* vdbesort.c in Sources */ = {isa = PBXBuildFile; fileRef = C58FF92E7DD11BBE393DC6EF46C6E7D9 /* vdbesort.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		A7AB7125B3C2E18B94A6691CFA3C3C7D /* parse.h in Headers */ = {isa = PBXBuildFile; fileRef = A7A883EF6BCB5FFDB54416C9ED47739D /* parse.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -305,14 +304,14 @@
 		BB32DCADC3963CB9C676A60A2A94A6E2 /* Notifications.swift in Sources */ = {isa = PBXBuildFile; fileRef = F6D87910F9FC328A5A23BA8970B81566 /* Notifications.swift */; };
 		BBF9767DD7083E8FF75FBD60DB3CB5AD /* Operable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1DE523654363CC854C011D7263D1ABED /* Operable.swift */; };
 		BC041143C29238BE599341FAF43204AB /* Request.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746B448CFD06D23716057CCA137BCC18 /* Request.swift */; };
+		BC37B88E9FB43AEA480F4D0387938A97 /* QSModelConvert-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B680240213A79CDB49B1C8B3A6930487 /* QSModelConvert-dummy.m */; };
+		BC5EDEC0FFC0338D3028DAB926B8678A /* Pods-QSApiAnalyticsWatch Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B477095F45E4E6E08E39880917551A /* Pods-QSApiAnalyticsWatch Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		BE084FCA404DA6EC9753553D49E373B7 /* StatementPragma.swift in Sources */ = {isa = PBXBuildFile; fileRef = 470D9BD4E7644AA2E0F6E018C9938961 /* StatementPragma.swift */; };
 		BE5D9E02230E81A8A8E1599D294ACA54 /* Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = B320199BE9B3C8FF185BCE14A1ECB555 /* Combine.swift */; };
-		C038D3D0A40B646575E1D843D73C5859 /* QSModelConvert-iOS-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F99460D6C0A3E4D6B79B36BAC8E4D2C9 /* QSModelConvert-iOS-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		C096519D746EE573E3C56CE35D9E80BC /* mutex.c in Sources */ = {isa = PBXBuildFile; fileRef = A7F3B9049AA6C6C5E2B349F6C98566D9 /* mutex.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C0D8431D1114045E006825FFE1B6F275 /* sqliterk_util.c in Sources */ = {isa = PBXBuildFile; fileRef = 6DB2EFFECAC73B82C89821992C85D94C /* sqliterk_util.c */; };
 		C0D86B2B4050328115042E60889658E9 /* Table.swift in Sources */ = {isa = PBXBuildFile; fileRef = 73B72FA168D84E8AC7FBE42D1E622F4A /* Table.swift */; };
 		C0E65C82798E4227347D7AB95AD29705 /* fts3_hash.c in Sources */ = {isa = PBXBuildFile; fileRef = FF729A759CCC86D55D900A33BC55DF4D /* fts3_hash.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		C0EA3B0EFE406B41519DF00BA74F2E2F /* ModelConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822924D72FCD9E2F4ABA872CE2FDCA6 /* ModelConvert.swift */; };
 		C0FA29319A77A22DF572249AB2FD7DAF /* RedirectHandler.swift in Sources */ = {isa = PBXBuildFile; fileRef = EA8BE958B2C29F4AEC63908D572310E3 /* RedirectHandler.swift */; };
 		C108DEA797D4FDD96E6343BF6ADE5C14 /* where.c in Sources */ = {isa = PBXBuildFile; fileRef = F150C0CDD605BDD99C588D3792DDDC14 /* where.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		C16F53057B27BBF97B2EF33059281A4C /* TableBinding.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7451B00CF304CBA14DEF2752878A9B6C /* TableBinding.swift */; };
@@ -333,6 +332,7 @@
 		D05DC6D153052EAF2E95C41D901CBBAD /* pager.c in Sources */ = {isa = PBXBuildFile; fileRef = 130B23BF195DD1863B8CD081D2465431 /* pager.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D070B49D21D6C0BADCE3147F1232B01F /* StringEncoding+Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = F431932B8C9E0176D432BA1175E33600 /* StringEncoding+Alamofire.swift */; };
 		D0D166CC4D3842FD86F9FDEC2F7FC4F2 /* sqliterk_values.c in Sources */ = {isa = PBXBuildFile; fileRef = 08D8020E470DAC18EC9ACD7BDFE53C84 /* sqliterk_values.c */; };
+		D120ED49CA356BA6B086D5BBB7C7C37B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E1797A8083367E5E9F7E5F4F1D24F498 /* Foundation.framework */; };
 		D294277B1FE2B31F26809CD39B780805 /* SQLite-Bridging.swift in Sources */ = {isa = PBXBuildFile; fileRef = B0308CA885B4B5BC08C57A7B2AD751EF /* SQLite-Bridging.swift */; };
 		D2D83BB6DEE8CD4D76F548DF1526B495 /* dbstat.c in Sources */ = {isa = PBXBuildFile; fileRef = AF228F738CB393D4510D038DD6840981 /* dbstat.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		D3309C014E87F577CE5A616492BC10C9 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685DE068DB17923980CEB8552D55A3 /* Foundation.framework */; };
@@ -346,20 +346,18 @@
 		D7717E5AB8D58401C130DAED199321DF /* sqliterk_util.h in Headers */ = {isa = PBXBuildFile; fileRef = EA8A3AFF23218C5EEAFF6CFFC18DCB98 /* sqliterk_util.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		D7E2DF040700B65311BAAC524D9A90FD /* TableDecoder.swift in Sources */ = {isa = PBXBuildFile; fileRef = D304EDA4856EC37C7D4EA21A7297C360 /* TableDecoder.swift */; };
 		D7F3B43E93C10EBDA130129D6646818F /* fts3_expr.c in Sources */ = {isa = PBXBuildFile; fileRef = E32FD8D5FCEC699CFF914A5ADDD45ED2 /* fts3_expr.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		D84FAD064708632C58D3F2AAD17D7183 /* Pods-QSApiAnalytics-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F63808E9B2B159FF70595DD41E4BB862 /* Pods-QSApiAnalytics-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D91A59DCDF3949A750105EEE15949964 /* QSIpLocation-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 57DD53589CCDB195BEAA7E6325371C31 /* QSIpLocation-watchOS-dummy.m */; };
 		DA8FE1571CAEE86019C3BC5640588867 /* SQLite-Bridging.c in Sources */ = {isa = PBXBuildFile; fileRef = DAF78F5CAE29D1132E06BF0661057150 /* SQLite-Bridging.c */; };
 		DAA8E2F1E6F3397B4BE28E30F227242E /* URLConvertible+URLRequestConvertible.swift in Sources */ = {isa = PBXBuildFile; fileRef = 68D1035D02523EA8F63B6BDC1CC91A6C /* URLConvertible+URLRequestConvertible.swift */; };
-		DB349C89C832BB8D8E72ED2EFF0C5FAC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 20685DE068DB17923980CEB8552D55A3 /* Foundation.framework */; };
 		DB401E9E2C61AC1F51A118D9ADB96EC7 /* SQLiteRepair-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8BE98BBD7B25E10E5229C6706C86C348 /* SQLiteRepair-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		DBC30B9A7CB91734DD876BEF61D0CED2 /* btree.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E149B4B6497F6F76AA29569950E7245 /* btree.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DBE4679AAF2EDC4D1F5AB4AE15F35C27 /* QSModelConvert-watchOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = C97EC914E9D58B73BECFAC9CBD4BE42A /* QSModelConvert-watchOS-dummy.m */; };
 		DCD21412538EB2FED991195E3812B944 /* OfflineRetrier.swift in Sources */ = {isa = PBXBuildFile; fileRef = 59F0BC6FAB36E723A7232E9BEF0A629B /* OfflineRetrier.swift */; };
 		DE419E0177DA31D1278E54EBF62C7A3C /* Session.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3245213253ACB03401F463106BC1A516 /* Session.swift */; };
 		DF036D011F58FB66BFDAB6B4DBB64B58 /* fts3_unicode2.c in Sources */ = {isa = PBXBuildFile; fileRef = C41493ACC61D819AA469925AD511FC9F /* fts3_unicode2.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		DF0384C053384D09716BB1F181ACA28C /* ColumnType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 512650D882EA0FE016F79836C18ECF7F /* ColumnType.swift */; };
 		DFE405F0F81B1AB4255C38ED0D2F44FA /* mutex_wcdb.h in Headers */ = {isa = PBXBuildFile; fileRef = 01F8347F733B2049B1A831C2279CE221 /* mutex_wcdb.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		E05334659B2D4FA6DC287A439E56C74E /* ColumnCodable.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE139B20F198C64D18190A05BC81D971 /* ColumnCodable.swift */; };
-		E0BB9262791A38FC753DE9AA02A0784A /* Pods-QSApiAnalytics-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CD11D5C92496012F792B0984EF8FE727 /* Pods-QSApiAnalytics-dummy.m */; };
 		E16DC6C5DD5BD5AF1846291DC07D8385 /* delete.c in Sources */ = {isa = PBXBuildFile; fileRef = 0F96DCB4AD2C07E36FBD140A8CE6D9EA /* delete.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E19B839BEA670D4992D4A763F3B53554 /* NetworkReachabilityManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 884245467E51993CCB4677292BE4F752 /* NetworkReachabilityManager.swift */; };
 		E2C3FD3B1C1C993105A7211DF07DDCE1 /* vdbeInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 3138246812B2BC8A67C81CA5AC34004E /* vdbeInt.h */; settings = {ATTRIBUTES = (Project, ); }; };
@@ -372,17 +370,14 @@
 		E556BA4121ABEED205BF3A994E890A7C /* fts3_aux.c in Sources */ = {isa = PBXBuildFile; fileRef = 9F9F32B32DBCAD042F2296F9750AAF46 /* fts3_aux.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E5C004AE8716F8ED6F16A3483D5C043B /* Response.swift in Sources */ = {isa = PBXBuildFile; fileRef = D17D5235A7EFB0C08A522E725B2B198C /* Response.swift */; };
 		E62DBBEE11DEBED2E9EDAB97E7B25931 /* analyze.c in Sources */ = {isa = PBXBuildFile; fileRef = BC44E8228E60170BC2B05AB9C120ACB4 /* analyze.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		E6CA2254F568628C3F283C448B3AB013 /* QSModelConvert-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E5EB1FDF665390560992754E6BBC240 /* QSModelConvert-iOS-dummy.m */; };
 		E786FFFD75C7EC4F1F953D04677EDCA5 /* mutex_noop.c in Sources */ = {isa = PBXBuildFile; fileRef = 75525B847144B3D807DF3E02669398A7 /* mutex_noop.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E8231D39F82814E2144C2C9D95A3C630 /* NetRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1BA32323043C42AEEEEB9D63EE363EB0 /* NetRequest.swift */; };
 		E867301B788D9BCA0B3AF0EF0B0BFF9F /* JsonParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7D71F227D99E22B790A8550A01D36764 /* JsonParser.swift */; };
 		E8DB077EBBE39E36BE1B3DB3F89002FC /* btree.c in Sources */ = {isa = PBXBuildFile; fileRef = D1208116E3B65E8379D90339D0D3D7D6 /* btree.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		E9C3A19EE52B062225519A118E32623B /* Alamofire.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36296A08BCB798C43939873B42EBEFC5 /* Alamofire.swift */; };
 		EB1AEA9C7655DC48AACD7DEBD3C54251 /* sqliteInt.h in Headers */ = {isa = PBXBuildFile; fileRef = 7237E9EA45E6169BF19D7A08EC6FDD52 /* sqliteInt.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		EB37232BE4C5A6AA1641D04885183FCD /* Pods-QSApiAnalyticsWatch Watch App-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 38B477095F45E4E6E08E39880917551A /* Pods-QSApiAnalyticsWatch Watch App-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		EB377DF3E8E2CAEA4D62B514A65D9B9D /* rowset.c in Sources */ = {isa = PBXBuildFile; fileRef = 7468C8D8AC0FC0EB418FAE7F0C78D5E0 /* rowset.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		EBEC72F7A0D778C38DBC52E7BFD11AB9 /* vdbemem.c in Sources */ = {isa = PBXBuildFile; fileRef = 7BFBE814EFED519ED2278BC6883C426F /* vdbemem.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
-		EBF0E9E0969D989C1D39FD878C7A0123 /* ModelConvert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7822924D72FCD9E2F4ABA872CE2FDCA6 /* ModelConvert.swift */; };
 		ECFDF2F350F535E3FA8A10340450E3C1 /* ModuleArgument.swift in Sources */ = {isa = PBXBuildFile; fileRef = D1B7AA2364B1192565DDCEEE65200B5D /* ModuleArgument.swift */; };
 		EE1CFCA2F6AA70946591B1D3EF8E04AA /* Protected.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2FE2464D7FC1C5CDAD73491C94119EED /* Protected.swift */; };
 		EE7942F7D43A88799D710780072633A4 /* opcodes.c in Sources */ = {isa = PBXBuildFile; fileRef = 4C0B0CE65AB67885219868F6B98C6DA7 /* opcodes.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -404,6 +399,7 @@
 		FA79D52145F4AB777153C2DFB24934E3 /* EventMonitor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F04D0827059289B9685BC8C8321BCC6 /* EventMonitor.swift */; };
 		FB1415441351C4DF7841BE68B0BB7F40 /* Database.swift in Sources */ = {isa = PBXBuildFile; fileRef = BE7A3B63EA985F995E23A969A8421D90 /* Database.swift */; };
 		FB78789A276F3B22B1B9486E366AEC9C /* QSNetRequest-iOS-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = B8E1AB512626C3CFC6858A5A8A3C6E59 /* QSNetRequest-iOS-dummy.m */; };
+		FCAF9A95EB79AA1C6289039ABABA7099 /* QSModelConvert-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 8A696E044DA8A1A01847521608AF3B51 /* QSModelConvert-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCBA8B33DF2AA3DDD2F4C9BEFAD06792 /* sqlite3.h in Headers */ = {isa = PBXBuildFile; fileRef = F1B971873A3926CB56E3F2430C3D6DC8 /* sqlite3.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		FCFA440260575E47B7FA4B127B632B67 /* pcache1.c in Sources */ = {isa = PBXBuildFile; fileRef = BF61C611F50D75AB87BB0B72F9078AE3 /* pcache1.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		FD43CB8D4FB5E78570FFE2A2597D8554 /* mem5.c in Sources */ = {isa = PBXBuildFile; fileRef = 18E71528D363B736DABC354D2DE50E69 /* mem5.c */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
@@ -411,33 +407,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		01F9CA9C72AA840BD289E6BE79EDF617 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 5C6B0F26314717A3E42915D883F70BB0;
-			remoteInfo = SQLiteRepair;
-		};
 		0443CCA220AD845DB09B72E5A2EF153E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 776F4C7599C6DD736E1D653AD1E90704;
 			remoteInfo = "QSJsonParser-watchOS";
-		};
-		08C7C9B43195A8E31D1E034FE673D95E /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = F09A0938C688CA4BF49470F372732268;
-			remoteInfo = WCDBSwift;
-		};
-		1F0412939F42DCB90E3FC9639A2B46DB /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 7026ED5A437B94F65CA9D36FB40151DD;
-			remoteInfo = "QSIpLocation-iOS";
 		};
 		21649DE26875B7CFC8CD7104E7248405 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -446,26 +421,19 @@
 			remoteGlobalIDString = 6C224EE1E976ECB99682EFB21B16BF3C;
 			remoteInfo = OptimizedSQLCipher;
 		};
-		2ED423A121EF969830E93FF9677777BC /* PBXContainerItemProxy */ = {
+		28DBB9CFEF08AF31A1E55F6D85048BE4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5C6B0F26314717A3E42915D883F70BB0;
-			remoteInfo = SQLiteRepair;
+			remoteGlobalIDString = 7026ED5A437B94F65CA9D36FB40151DD;
+			remoteInfo = "QSIpLocation-iOS";
 		};
-		30275A491D12819BACD60DE6B48D6345 /* PBXContainerItemProxy */ = {
+		315DB7F503B639706921104D0CE99132 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 5EACE5B5871FE6F6919C3AAF866B2A0D;
-			remoteInfo = "QSNetRequest-iOS";
-		};
-		3BC962E5831C371210D6FF76F2A19531 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 328C14F5E90990440268305C9E3CFB25;
-			remoteInfo = "QSModelConvert-iOS";
+			remoteGlobalIDString = 2E5A33E4F1D314E3DA3039D843DDA7BB;
+			remoteInfo = "QSIpLocation-watchOS";
 		};
 		3BD109445936C708B4381B3294DE6DEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -474,33 +442,12 @@
 			remoteGlobalIDString = EE4FEECC90DF88534F0D9B2712981B03;
 			remoteInfo = "QSJsonParser-iOS";
 		};
-		3EAFDDF7C0F4ADA17E0B38DC7A12EEAE /* PBXContainerItemProxy */ = {
+		4C00E343B445C3800D64B88EE4D2351C /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 776F4C7599C6DD736E1D653AD1E90704;
-			remoteInfo = "QSJsonParser-watchOS";
-		};
-		4150F6D7C5F9B3700BEC4C79E1321B08 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 6C224EE1E976ECB99682EFB21B16BF3C;
-			remoteInfo = OptimizedSQLCipher;
-		};
-		4D2F481DF4074D02CBE6DD0FF3390F3A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = FD8828BFC368157226E204A32CD5B6DE;
-			remoteInfo = "Alamofire-iOS";
-		};
-		5D7D5B24590BC7B0E07A03CEEDBAD38A /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = EE4FEECC90DF88534F0D9B2712981B03;
-			remoteInfo = "QSJsonParser-iOS";
+			remoteGlobalIDString = 5C6B0F26314717A3E42915D883F70BB0;
+			remoteInfo = SQLiteRepair;
 		};
 		68D3B1875C53ADAD21231F0DB127036B /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -509,19 +456,26 @@
 			remoteGlobalIDString = 6C224EE1E976ECB99682EFB21B16BF3C;
 			remoteInfo = OptimizedSQLCipher;
 		};
-		787B75B3C2009877518B2703794B5AEC /* PBXContainerItemProxy */ = {
+		747BC0B9C481878E8D5238607ADBED5A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 2E5A33E4F1D314E3DA3039D843DDA7BB;
-			remoteInfo = "QSIpLocation-watchOS";
+			remoteGlobalIDString = 6C224EE1E976ECB99682EFB21B16BF3C;
+			remoteInfo = OptimizedSQLCipher;
 		};
-		A83E6B255E45761570849D2B1446D439 /* PBXContainerItemProxy */ = {
+		75FAFEF91BC6DDF30906A4B353A124EE /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 66F51BC925FD5FB829E8D422C690BDF0;
-			remoteInfo = "Alamofire-watchOS";
+			remoteGlobalIDString = 5C6B0F26314717A3E42915D883F70BB0;
+			remoteInfo = SQLiteRepair;
+		};
+		836ACC8EAD91E1059EB2DB344EBF7D80 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 5EACE5B5871FE6F6919C3AAF866B2A0D;
+			remoteInfo = "QSNetRequest-iOS";
 		};
 		B129F31F3378072CF821C817DAB0D185 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -530,12 +484,19 @@
 			remoteGlobalIDString = 40F619F638ADF3CABB3C7C1C1298D722;
 			remoteInfo = "Alamofire-iOS-Alamofire";
 		};
-		B2005CA4ED864322898CA70069133160 /* PBXContainerItemProxy */ = {
+		B1D94B745F3D3AB546CA44F4C8ED4CEC /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 3DA006BE7C09A815F339C353B899F880;
 			remoteInfo = "QSNetRequest-watchOS";
+		};
+		B5FA6F9D4B60AC955EE4645323EE1FB1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 66F51BC925FD5FB829E8D422C690BDF0;
+			remoteInfo = "Alamofire-watchOS";
 		};
 		BB018DB62E6D334A8EB144A5F86E316A /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -551,12 +512,40 @@
 			remoteGlobalIDString = 66F51BC925FD5FB829E8D422C690BDF0;
 			remoteInfo = "Alamofire-watchOS";
 		};
-		D18FA7FD326A34F227055ACD51684798 /* PBXContainerItemProxy */ = {
+		CCF637DCBDE0CC00727A425D50AB0287 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 3FC4961665581D98FAB19167B3EEE376;
-			remoteInfo = "QSModelConvert-watchOS";
+			remoteGlobalIDString = D73BB1A2BD19DD383D0C064E8693CF42;
+			remoteInfo = QSModelConvert;
+		};
+		D3C5E11E4A4EC7F7CCC414F7E71CF8B2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FD8828BFC368157226E204A32CD5B6DE;
+			remoteInfo = "Alamofire-iOS";
+		};
+		DC27E3E397F22897498027F36657047A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F09A0938C688CA4BF49470F372732268;
+			remoteInfo = WCDBSwift;
+		};
+		EAADE99263C778609F0AE3E40866762B /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE4FEECC90DF88534F0D9B2712981B03;
+			remoteInfo = "QSJsonParser-iOS";
+		};
+		F57C03D972775154758056883CCFFA93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 776F4C7599C6DD736E1D653AD1E90704;
+			remoteInfo = "QSJsonParser-watchOS";
 		};
 		FE52A1C3F126654995108D39E90E916E /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
@@ -627,7 +616,6 @@
 		27342B73ECF4BD521A96710522C32303 /* update.c */ = {isa = PBXFileReference; includeInIndex = 1; name = update.c; path = src/update.c; sourceTree = "<group>"; };
 		27804C11E6E121856BCEBF1B266BAB41 /* Alamofire-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Alamofire-iOS.modulemap"; sourceTree = "<group>"; };
 		281D179AACF37D5A35EAC92A09F7819E /* QSIpLocation-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSIpLocation-iOS-umbrella.h"; sourceTree = "<group>"; };
-		2823F6102C04B114D847373B5EE81DBA /* QSModelConvert-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QSModelConvert-iOS.debug.xcconfig"; sourceTree = "<group>"; };
 		28C53DE4DBDCB917574A5029A06E87F2 /* CachedResponseHandler.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CachedResponseHandler.swift; path = Source/Features/CachedResponseHandler.swift; sourceTree = "<group>"; };
 		2A66BD43C37C74B64C7D865746B07B06 /* TableConstraint.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableConstraint.swift; path = source/abstract/TableConstraint.swift; sourceTree = "<group>"; };
 		2B3B6636ED28CE213E0C8F9D7A0F8447 /* mutex_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex_unix.c; path = src/mutex_unix.c; sourceTree = "<group>"; };
@@ -645,7 +633,6 @@
 		312D4559DE107BDE12831232356B9748 /* Pods-QSApiAnalyticsWatch Watch App-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSApiAnalyticsWatch Watch App-acknowledgements.plist"; sourceTree = "<group>"; };
 		3138246812B2BC8A67C81CA5AC34004E /* vdbeInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vdbeInt.h; path = src/vdbeInt.h; sourceTree = "<group>"; };
 		31B6ABC272DCCF0AD138FAB239B299CC /* QSNetRequest-iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QSNetRequest-iOS.debug.xcconfig"; sourceTree = "<group>"; };
-		31C1270DB62A49BA03D9A0CCD8BB0598 /* QSModelConvert-iOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "QSModelConvert-iOS"; path = QSModelConvert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		31C938C608EF63F461A6F62F3308A749 /* QSNetRequest-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "QSNetRequest-watchOS"; path = QSNetRequest.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3245213253ACB03401F463106BC1A516 /* Session.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Session.swift; path = Source/Core/Session.swift; sourceTree = "<group>"; };
 		32FB10493D3FB1310502158C25E19084 /* crypto_impl.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_impl.c; path = src/crypto_impl.c; sourceTree = "<group>"; };
@@ -672,7 +659,6 @@
 		3E1875D6B45B62D43592DE09DBEA93BB /* fts3.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3.h; path = ext/fts3/fts3.h; sourceTree = "<group>"; };
 		3E315351C945870C31556CD52148A952 /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = Platforms/WatchOS.platform/Developer/SDKs/WatchOS11.0.sdk/System/Library/Frameworks/CFNetwork.framework; sourceTree = DEVELOPER_DIR; };
 		3E92C1D9C3321A2E8328C3C05F4427E5 /* WCDBSwift-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "WCDBSwift-dummy.m"; sourceTree = "<group>"; };
-		3F0245A8FF4EA960F09D166A8BB84749 /* QSModelConvert-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSModelConvert-watchOS-prefix.pch"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		3F04D0827059289B9685BC8C8321BCC6 /* EventMonitor.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = EventMonitor.swift; path = Source/Features/EventMonitor.swift; sourceTree = "<group>"; };
 		3F563951934AC5E8E5218B68FB7F6AFC /* Alamofire-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Alamofire-iOS-umbrella.h"; sourceTree = "<group>"; };
 		400DD0D3D530D6F233454DB956F1CE94 /* os.c */ = {isa = PBXFileReference; includeInIndex = 1; name = os.c; path = src/os.c; sourceTree = "<group>"; };
@@ -687,11 +673,11 @@
 		4286FBB0A76B506B7DDB82BDD7CD787D /* OptimizedSQLCipher-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "OptimizedSQLCipher-dummy.m"; sourceTree = "<group>"; };
 		42F487E05431296047A2FC141201B74F /* fts3_unicode.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_unicode.c; path = ext/fts3/fts3_unicode.c; sourceTree = "<group>"; };
 		43041C10D683261D2A8F9211007AC5AB /* Pods-QSApiAnalytics-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-QSApiAnalytics-acknowledgements.markdown"; sourceTree = "<group>"; };
-		43320E05B746669021010DC911F8348E /* QSModelConvert-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "QSModelConvert-watchOS.modulemap"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS.modulemap"; sourceTree = "<group>"; };
 		43B95B3F914B9000E53EEB66780786CF /* AlamofireExtended.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AlamofireExtended.swift; path = Source/Features/AlamofireExtended.swift; sourceTree = "<group>"; };
 		43DA6DFAA898F949ACBD91D709EF13F8 /* Alamofire-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "Alamofire-watchOS"; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		440C99B6BD3E6110E8E57479E5D6F820 /* memjournal.c */ = {isa = PBXFileReference; includeInIndex = 1; name = memjournal.c; path = src/memjournal.c; sourceTree = "<group>"; };
 		470D9BD4E7644AA2E0F6E018C9938961 /* StatementPragma.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementPragma.swift; path = source/abstract/StatementPragma.swift; sourceTree = "<group>"; };
+		473490C4358E6A6AE01B4E7DD229876D /* QSModelConvert.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSModelConvert.debug.xcconfig; sourceTree = "<group>"; };
 		47658960B86B6BB486785D5552F96AAF /* QSNetRequest-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QSNetRequest-watchOS.release.xcconfig"; path = "../QSNetRequest-watchOS/QSNetRequest-watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		47D632D845DD843D152E06E9B7539EE5 /* vdbeblob.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vdbeblob.c; path = src/vdbeblob.c; sourceTree = "<group>"; };
 		47EC819C5F8FC2976AC029039849E719 /* loadext.c */ = {isa = PBXFileReference; includeInIndex = 1; name = loadext.c; path = src/loadext.c; sourceTree = "<group>"; };
@@ -705,9 +691,9 @@
 		4BEABBA1CCD4C269E351FAE9BBF14975 /* QSJsonParser-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QSJsonParser-watchOS.debug.xcconfig"; path = "../QSJsonParser-watchOS/QSJsonParser-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		4C0B0CE65AB67885219868F6B98C6DA7 /* opcodes.c */ = {isa = PBXFileReference; includeInIndex = 1; path = opcodes.c; sourceTree = "<group>"; };
 		4D49F8070E2DD6D4E2F89742FC76F2AC /* Config.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Config.swift; path = source/core/base/Config.swift; sourceTree = "<group>"; };
-		4E12E7E0010DE71D495EB59D083C0764 /* QSModelConvert-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "QSModelConvert-iOS.modulemap"; sourceTree = "<group>"; };
 		4E2E32BEC6C8C7F62CBD00FC6AD8EB87 /* StatementDropTable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementDropTable.swift; path = source/abstract/StatementDropTable.swift; sourceTree = "<group>"; };
 		4F1430AA0A12AC14CF28F29AFE725770 /* malloc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = malloc.c; path = src/malloc.c; sourceTree = "<group>"; };
+		4F3F78205F9166250D069EBD51BAE2A1 /* QSModelConvert-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSModelConvert-prefix.pch"; sourceTree = "<group>"; };
 		4F76AF240ECED96580A75CBC334F71C7 /* os_unix.c */ = {isa = PBXFileReference; includeInIndex = 1; name = os_unix.c; path = src/os_unix.c; sourceTree = "<group>"; };
 		504CAA0B29EA06F5329DDAE6A0B57874 /* utf.c */ = {isa = PBXFileReference; includeInIndex = 1; name = utf.c; path = src/utf.c; sourceTree = "<group>"; };
 		504FDD8C4139EE9AFC66CD9711C01DF3 /* Alamofire-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-watchOS-prefix.pch"; path = "../Alamofire-watchOS/Alamofire-watchOS-prefix.pch"; sourceTree = "<group>"; };
@@ -725,6 +711,7 @@
 		57EB1F103CE9CEB57EF0E792A08A07EB /* sqlcipher.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlcipher.h; path = src/sqlcipher.h; sourceTree = "<group>"; };
 		5837F40259AA950603BE5375ED740DD6 /* SQLiteRepair-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLiteRepair-prefix.pch"; sourceTree = "<group>"; };
 		58FC0B1DD049D372C25553B5515D3B8E /* crypto_cc.c */ = {isa = PBXFileReference; includeInIndex = 1; name = crypto_cc.c; path = src/crypto_cc.c; sourceTree = "<group>"; };
+		596FC5EF94195A005770645EC15A53FA /* QSModelConvert-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QSModelConvert-Info.plist"; sourceTree = "<group>"; };
 		59EFBFDB6D3FDA51705196B6B3E85743 /* Core.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Core.swift; path = source/core/base/Core.swift; sourceTree = "<group>"; };
 		59F0BC6FAB36E723A7232E9BEF0A629B /* OfflineRetrier.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OfflineRetrier.swift; path = Source/Features/OfflineRetrier.swift; sourceTree = "<group>"; };
 		5B9E0A5AB90DD4233BFC4C4438546745 /* StatementAttach.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementAttach.swift; path = source/abstract/StatementAttach.swift; sourceTree = "<group>"; };
@@ -745,7 +732,6 @@
 		68D1035D02523EA8F63B6BDC1CC91A6C /* URLConvertible+URLRequestConvertible.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "URLConvertible+URLRequestConvertible.swift"; path = "Source/Core/URLConvertible+URLRequestConvertible.swift"; sourceTree = "<group>"; };
 		6908F5A65B3764F47F58139D0903FF61 /* TableInterface.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableInterface.swift; path = source/core/interface/TableInterface.swift; sourceTree = "<group>"; };
 		690BC78EDCF370BC5CA217D1722E2861 /* MultipartUpload.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MultipartUpload.swift; path = Source/Features/MultipartUpload.swift; sourceTree = "<group>"; };
-		693CD98D35488079AD4412678A3257C8 /* QSModelConvert-iOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "QSModelConvert-iOS-Info.plist"; sourceTree = "<group>"; };
 		6A3FE96E22A5053589FBD64E083E623A /* queue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = queue.h; path = src/queue.h; sourceTree = "<group>"; };
 		6AB949D258D58B4DD543D4CCBA7C3EC4 /* QSIpLocation-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSIpLocation-watchOS-umbrella.h"; path = "../QSIpLocation-watchOS/QSIpLocation-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		6B275C4C6F6142E8E50C0AC0975FC41F /* Pods-QSApiAnalyticsWatch Watch App-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-QSApiAnalyticsWatch Watch App-frameworks.sh"; sourceTree = "<group>"; };
@@ -756,7 +742,6 @@
 		6DB2EFFECAC73B82C89821992C85D94C /* sqliterk_util.c */ = {isa = PBXFileReference; includeInIndex = 1; name = sqliterk_util.c; path = repair/sqliterk_util.c; sourceTree = "<group>"; };
 		6E4ED7F929A8DD64D48D9F38750040B3 /* Alamofire-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Alamofire-watchOS.debug.xcconfig"; path = "../Alamofire-watchOS/Alamofire-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
 		6E6650003C8A79D3603C5D3B39E0200F /* Pods-QSApiAnalyticsWatch Watch App-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSApiAnalyticsWatch Watch App-Info.plist"; sourceTree = "<group>"; };
-		6F6D095A29A57675FDED1AA479F5D3BB /* QSModelConvert-watchOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QSModelConvert-watchOS.release.xcconfig"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS.release.xcconfig"; sourceTree = "<group>"; };
 		7237E9EA45E6169BF19D7A08EC6FDD52 /* sqliteInt.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliteInt.h; path = src/sqliteInt.h; sourceTree = "<group>"; };
 		7303F09F68EEEC25083778FDE8FE4758 /* HandlePool.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = HandlePool.swift; path = source/core/base/HandlePool.swift; sourceTree = "<group>"; };
 		731761F9647F235102024D8DE069CC65 /* sqlite3ext.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqlite3ext.h; path = src/sqlite3ext.h; sourceTree = "<group>"; };
@@ -769,7 +754,6 @@
 		75525B847144B3D807DF3E02669398A7 /* mutex_noop.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mutex_noop.c; path = src/mutex_noop.c; sourceTree = "<group>"; };
 		76AC3375E8CDB3F88166C42041A073F9 /* StatementInsert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementInsert.swift; path = source/abstract/StatementInsert.swift; sourceTree = "<group>"; };
 		77C1AF27F4B6605A0D73DAF83392D743 /* QSJsonParser-iOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "QSJsonParser-iOS.modulemap"; sourceTree = "<group>"; };
-		7822924D72FCD9E2F4ABA872CE2FDCA6 /* ModelConvert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelConvert.swift; path = QSModelConvert/QSModelConvert/Tool/ModelConvert.swift; sourceTree = "<group>"; };
 		794BA48110CE768B74E5ADAD3F452D53 /* ColumnDef.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ColumnDef.swift; path = source/abstract/ColumnDef.swift; sourceTree = "<group>"; };
 		7A1B6A89D31F7319B65FCDB3C8FC4B2D /* QSJsonParser-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSJsonParser-watchOS-umbrella.h"; path = "../QSJsonParser-watchOS/QSJsonParser-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		7AFF55D56684547E53BBF9D3AA07AF7E /* Alamofire-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "Alamofire-watchOS-umbrella.h"; path = "../Alamofire-watchOS/Alamofire-watchOS-umbrella.h"; sourceTree = "<group>"; };
@@ -800,6 +784,7 @@
 		883F69E05532D67B797B84385EAAD666 /* Tagged.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tagged.swift; path = source/util/Tagged.swift; sourceTree = "<group>"; };
 		884245467E51993CCB4677292BE4F752 /* NetworkReachabilityManager.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = NetworkReachabilityManager.swift; path = Source/Features/NetworkReachabilityManager.swift; sourceTree = "<group>"; };
 		89FCA02C40E047E34848A66265473D71 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = source/util/Error.swift; sourceTree = "<group>"; };
+		8A696E044DA8A1A01847521608AF3B51 /* QSModelConvert-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSModelConvert-umbrella.h"; sourceTree = "<group>"; };
 		8A7AB87308D1A4E5D28859024D97E5F1 /* Column.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Column.swift; path = source/abstract/Column.swift; sourceTree = "<group>"; };
 		8BCA72954B0043AD211DAC2894DD61A3 /* pcache.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = pcache.h; path = src/pcache.h; sourceTree = "<group>"; };
 		8BE98BBD7B25E10E5229C6706C86C348 /* SQLiteRepair-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SQLiteRepair-umbrella.h"; sourceTree = "<group>"; };
@@ -809,7 +794,6 @@
 		8CE1127D681C2192D4B511306CC56FF0 /* pcache.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pcache.c; path = src/pcache.c; sourceTree = "<group>"; };
 		8DCB7474E016AFFB23D88BA994FA9546 /* icu.c */ = {isa = PBXFileReference; includeInIndex = 1; name = icu.c; path = ext/icu/icu.c; sourceTree = "<group>"; };
 		8E48BDDBA980DC8023491EFD3E100D9A /* global.c */ = {isa = PBXFileReference; includeInIndex = 1; name = global.c; path = src/global.c; sourceTree = "<group>"; };
-		8E5EB1FDF665390560992754E6BBC240 /* QSModelConvert-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSModelConvert-iOS-dummy.m"; sourceTree = "<group>"; };
 		903AEB56AAD0B24D9C67B20AF67DC4A8 /* vxworks.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = vxworks.h; path = src/vxworks.h; sourceTree = "<group>"; };
 		91ABE2E4D0A81AC2F245CE895F0AB596 /* fts3_tokenizer.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_tokenizer.c; path = ext/fts3/fts3_tokenizer.c; sourceTree = "<group>"; };
 		91D807E2A50BA04C2D1C19734A8446A0 /* AFError.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AFError.swift; path = Source/Core/AFError.swift; sourceTree = "<group>"; };
@@ -874,7 +858,9 @@
 		B3542D8569D2A3E43E1719E09DB0D261 /* fts3_tokenizer1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_tokenizer1.c; path = ext/fts3/fts3_tokenizer1.c; sourceTree = "<group>"; };
 		B3FCFC622CC6DA5D947A6E37E0002869 /* sqliterk_crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_crypto.h; path = repair/sqliterk_crypto.h; sourceTree = "<group>"; };
 		B5148342519BBFB914861B40DCD873FD /* SessionDelegate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SessionDelegate.swift; path = Source/Core/SessionDelegate.swift; sourceTree = "<group>"; };
+		B51C300877C13B23AA627101E5ACDD99 /* QSModelConvert.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = QSModelConvert.modulemap; sourceTree = "<group>"; };
 		B5D884643F6741A39123822A43255162 /* OrderTerm.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = OrderTerm.swift; path = source/abstract/OrderTerm.swift; sourceTree = "<group>"; };
+		B680240213A79CDB49B1C8B3A6930487 /* QSModelConvert-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSModelConvert-dummy.m"; sourceTree = "<group>"; };
 		B6F296B0BA2B156551FF2D386B1ED37B /* threads.c */ = {isa = PBXFileReference; includeInIndex = 1; name = threads.c; path = src/threads.c; sourceTree = "<group>"; };
 		B71670346A9E1EAEBA774B5814915A90 /* fts3_tokenizer.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fts3_tokenizer.h; path = ext/fts3/fts3_tokenizer.h; sourceTree = "<group>"; };
 		B774325B3DD0727580C3288B0A1532A9 /* WCDBSwift-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "WCDBSwift-Info.plist"; sourceTree = "<group>"; };
@@ -883,6 +869,7 @@
 		B90C696BB938DC9E307AF54F241519E3 /* mem0.c */ = {isa = PBXFileReference; includeInIndex = 1; name = mem0.c; path = src/mem0.c; sourceTree = "<group>"; };
 		B9323F23C4B6D7DC5D146CCC484593F2 /* OptimizedSQLCipher-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "OptimizedSQLCipher-umbrella.h"; sourceTree = "<group>"; };
 		B97364937B1208704C5C13266A9A2D1C /* WCDBSwift-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "WCDBSwift-prefix.pch"; sourceTree = "<group>"; };
+		B98D70DB37E655BAC9D222BCF44C28FF /* ModelConvert.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = ModelConvert.swift; path = QSModelConvert/QSModelConvert/Tool/ModelConvert.swift; sourceTree = "<group>"; };
 		B9D6E7AF0A85D5F82AE4BA07607F141F /* WCDBTokenize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = WCDBTokenize.swift; path = source/core/fts/WCDBTokenize.swift; sourceTree = "<group>"; };
 		BA7CEBE633CAE220F275253DB964DB7F /* Conflict.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Conflict.swift; path = source/abstract/Conflict.swift; sourceTree = "<group>"; };
 		BBE1E2BDCBB1BDBD71A3F53A1E4A8011 /* Handle.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Handle.swift; path = source/abstract/Handle.swift; sourceTree = "<group>"; };
@@ -895,7 +882,6 @@
 		BE81C37FEE170EE90DAF3FA99DA03E05 /* Pods-QSApiAnalyticsWatch Watch App.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-QSApiAnalyticsWatch Watch App.modulemap"; sourceTree = "<group>"; };
 		BF57E7C2818AF91683C3E95275C846F6 /* build.c */ = {isa = PBXFileReference; includeInIndex = 1; name = build.c; path = src/build.c; sourceTree = "<group>"; };
 		BF61C611F50D75AB87BB0B72F9078AE3 /* pcache1.c */ = {isa = PBXFileReference; includeInIndex = 1; name = pcache1.c; path = src/pcache1.c; sourceTree = "<group>"; };
-		BF7168323B59B7B41EAF323A4F89152B /* QSModelConvert-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "QSModelConvert-watchOS"; path = QSModelConvert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		BF72087C2BC3C6118CEE02812D80B187 /* QSNetRequest-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSNetRequest-iOS-prefix.pch"; sourceTree = "<group>"; };
 		C0E9D04AF92ACF83F0D9784822A0EE66 /* crypto.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = crypto.h; path = src/crypto.h; sourceTree = "<group>"; };
 		C1177A6F322BADCD94DD93C30973B8F8 /* Alamofire-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "Alamofire-watchOS-dummy.m"; path = "../Alamofire-watchOS/Alamofire-watchOS-dummy.m"; sourceTree = "<group>"; };
@@ -912,11 +898,10 @@
 		C89F82C484AF7EE188802C3FC80622F0 /* TableCodable.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableCodable.swift; path = source/core/codable/TableCodable.swift; sourceTree = "<group>"; };
 		C8C48107E0FB81636AA0360ADEFFD510 /* sqliterk.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk.h; path = repair/sqliterk.h; sourceTree = "<group>"; };
 		C977E21AB03C1565F343435591F1EC88 /* CodingTableKey.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = CodingTableKey.swift; path = source/core/codable/CodingTableKey.swift; sourceTree = "<group>"; };
-		C97EC914E9D58B73BECFAC9CBD4BE42A /* QSModelConvert-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSModelConvert-watchOS-dummy.m"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS-dummy.m"; sourceTree = "<group>"; };
 		C9BE9886C8E0C65163273EDB52D3FAB2 /* whereexpr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = whereexpr.c; path = src/whereexpr.c; sourceTree = "<group>"; };
 		CA1EC994CC3AD39F91A56B7EA1A86C03 /* QSJsonParser-iOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "QSJsonParser-iOS-dummy.m"; sourceTree = "<group>"; };
 		CAE01E836BFDAC562E545D4F5712E13A /* Pods-QSApiAnalytics-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-QSApiAnalytics-Info.plist"; sourceTree = "<group>"; };
-		CAF59B783D969725872C0E03D1E015E5 /* QSModelConvert-watchOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "QSModelConvert-watchOS.debug.xcconfig"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS.debug.xcconfig"; sourceTree = "<group>"; };
+		CC7C2C909BB4539EC897A0C5BFC9D44D /* QSModelConvert */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = QSModelConvert; path = QSModelConvert.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		CCE2B98DC49BB8FA06B9FD41D474D7A0 /* QSNetRequest-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSNetRequest-watchOS-dummy.m"; path = "../QSNetRequest-watchOS/QSNetRequest-watchOS-dummy.m"; sourceTree = "<group>"; };
 		CD11D5C92496012F792B0984EF8FE727 /* Pods-QSApiAnalytics-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-QSApiAnalytics-dummy.m"; sourceTree = "<group>"; };
 		CDE6D8F2EB01314863CFB82923C7DB63 /* Pods-QSApiAnalyticsWatch Watch App.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-QSApiAnalyticsWatch Watch App.release.xcconfig"; sourceTree = "<group>"; };
@@ -949,7 +934,6 @@
 		D8222F56608746525B3AEB0E7E7A9CAB /* auth.c */ = {isa = PBXFileReference; includeInIndex = 1; name = auth.c; path = src/auth.c; sourceTree = "<group>"; };
 		DAF78F5CAE29D1132E06BF0661057150 /* SQLite-Bridging.c */ = {isa = PBXFileReference; includeInIndex = 1; name = "SQLite-Bridging.c"; path = "source/util/SQLite-Bridging.c"; sourceTree = "<group>"; };
 		DBF22D845163498226EC45C137619B43 /* TableEncoder.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableEncoder.swift; path = source/core/codable/TableEncoder.swift; sourceTree = "<group>"; };
-		DC9F3312052E485552AC84A1C093F774 /* QSModelConvert-watchOS-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; name = "QSModelConvert-watchOS-Info.plist"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS-Info.plist"; sourceTree = "<group>"; };
 		DE4878389166923158D576A98C362BDF /* StatementUpdate.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementUpdate.swift; path = source/abstract/StatementUpdate.swift; sourceTree = "<group>"; };
 		DEFD44346D46C83752E5539B784437E7 /* Tokenize.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Tokenize.swift; path = source/abstract/Tokenize.swift; sourceTree = "<group>"; };
 		DFD5B279236424BA4DC52EC957F614ED /* fts5.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = fts5.h; sourceTree = "<group>"; };
@@ -959,13 +943,11 @@
 		E22BBF12E2451632A7D5694167165EFC /* parse.c */ = {isa = PBXFileReference; includeInIndex = 1; path = parse.c; sourceTree = "<group>"; };
 		E238ADD92C7E634ECE87EFC821EDE5CB /* tokenize.c */ = {isa = PBXFileReference; includeInIndex = 1; name = tokenize.c; path = src/tokenize.c; sourceTree = "<group>"; };
 		E25E5409C057FC0102F0B2D6FBC86E07 /* TableConstraintBinding.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = TableConstraintBinding.swift; path = source/core/binding/TableConstraintBinding.swift; sourceTree = "<group>"; };
-		E2B127C452516EEAD99168C149229EB2 /* QSModelConvert-iOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSModelConvert-iOS-prefix.pch"; sourceTree = "<group>"; };
 		E32FD8D5FCEC699CFF914A5ADDD45ED2 /* fts3_expr.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_expr.c; path = ext/fts3/fts3_expr.c; sourceTree = "<group>"; };
 		E3CC79815A89B98228C1CD9F7D032F44 /* hash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = hash.c; path = src/hash.c; sourceTree = "<group>"; };
 		E63F0C6DB5F37647504090DA7F25AA26 /* QSJsonParser-watchOS */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = "QSJsonParser-watchOS"; path = QSJsonParser.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		E65B2A415BC15381B9F00A40113673B2 /* QSJsonParser-watchOS.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; name = "QSJsonParser-watchOS.modulemap"; path = "../QSJsonParser-watchOS/QSJsonParser-watchOS.modulemap"; sourceTree = "<group>"; };
 		E662BE1BFD242A2B3651910A33676781 /* LiteralValue.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = LiteralValue.swift; path = source/abstract/LiteralValue.swift; sourceTree = "<group>"; };
-		E6DB63BAC8F20C6651820F2856EA075F /* QSModelConvert-watchOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSModelConvert-watchOS-umbrella.h"; path = "../QSModelConvert-watchOS/QSModelConvert-watchOS-umbrella.h"; sourceTree = "<group>"; };
 		E6E6321DC814585A281984FC351DB645 /* RequestCompression.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = RequestCompression.swift; path = Source/Features/RequestCompression.swift; sourceTree = "<group>"; };
 		E97C5A20D8DDE1C49A4D74FD59059479 /* File.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = File.swift; path = source/util/File.swift; sourceTree = "<group>"; };
 		EA8A3AFF23218C5EEAFF6CFFC18DCB98 /* sqliterk_util.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = sqliterk_util.h; path = repair/sqliterk_util.h; sourceTree = "<group>"; };
@@ -993,28 +975,19 @@
 		F63808E9B2B159FF70595DD41E4BB862 /* Pods-QSApiAnalytics-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-QSApiAnalytics-umbrella.h"; sourceTree = "<group>"; };
 		F6D87910F9FC328A5A23BA8970B81566 /* Notifications.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Notifications.swift; path = Source/Core/Notifications.swift; sourceTree = "<group>"; };
 		F743146D8AA812368FB3F82B04B3762D /* QSJsonParser-watchOS-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "QSJsonParser-watchOS-dummy.m"; path = "../QSJsonParser-watchOS/QSJsonParser-watchOS-dummy.m"; sourceTree = "<group>"; };
-		F7971790B0B53F3597F7DBDD8B795B13 /* QSModelConvert-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QSModelConvert-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F7DF2B64D2E378D2D77A2718BC138026 /* ctime.c */ = {isa = PBXFileReference; includeInIndex = 1; name = ctime.c; path = src/ctime.c; sourceTree = "<group>"; };
 		F81A7E93F7E05AF1360C1192B4DADC48 /* QSIpLocation-iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "QSIpLocation-iOS.release.xcconfig"; sourceTree = "<group>"; };
 		F8256416A7E25E86D65C6B98D2761A6E /* StatementDelete.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = StatementDelete.swift; path = source/abstract/StatementDelete.swift; sourceTree = "<group>"; };
 		F841CE3CADA1DC3E555046A008CE5490 /* DispatchQueue+Alamofire.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Alamofire.swift"; path = "Source/Extensions/DispatchQueue+Alamofire.swift"; sourceTree = "<group>"; };
 		F8FD79F653E50B57F39E397ACEB6CE8D /* Atomic.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Atomic.swift; path = source/util/Atomic.swift; sourceTree = "<group>"; };
+		F956919AA1CB8141D994154D6E21289E /* QSModelConvert.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = QSModelConvert.release.xcconfig; sourceTree = "<group>"; };
 		F97AA099C6E871130290E755BB484D27 /* WCDB-Bridging.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "WCDB-Bridging.h"; path = "source/util/WCDB-Bridging.h"; sourceTree = "<group>"; };
 		F98EB3F266B682F65B143CA540107564 /* vacuum.c */ = {isa = PBXFileReference; includeInIndex = 1; name = vacuum.c; path = src/vacuum.c; sourceTree = "<group>"; };
-		F99460D6C0A3E4D6B79B36BAC8E4D2C9 /* QSModelConvert-iOS-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "QSModelConvert-iOS-umbrella.h"; sourceTree = "<group>"; };
 		FBAA7DDEA812F67FC7F5B44249FE60CF /* QSNetRequest-watchOS-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "QSNetRequest-watchOS-prefix.pch"; path = "../QSNetRequest-watchOS/QSNetRequest-watchOS-prefix.pch"; sourceTree = "<group>"; };
 		FF729A759CCC86D55D900A33BC55DF4D /* fts3_hash.c */ = {isa = PBXFileReference; includeInIndex = 1; name = fts3_hash.c; path = ext/fts3/fts3_hash.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		01ABD9E1A9E3DAB34BFD8883443FFF37 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9E093577FF97C75556D97D4B3650B213 /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		0C19658453E4ABB46B49D739714D4D20 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1030,6 +1003,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		10F16262F1459407AF9B4D177464E158 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D120ED49CA356BA6B086D5BBB7C7C37B /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		18FA2A5744754DBC74CCFCC61F43D298 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -1042,14 +1023,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				736ED2B6AF5BCBB0A27BEF06179B4E4A /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		24BC6EFE425011CC69CFA697E1E030E5 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				1CA8739AF242650CEA9D6DA1AD6C829F /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1069,11 +1042,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		414F7860EA44B236BF4DC5A7DE7CF5D1 /* Frameworks */ = {
+		58954FC1795721640B91946A8E48A459 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				658DD0F6EF33DC77EDE5A096B240DB71 /* Foundation.framework in Frameworks */,
+				46F257C0050EB04B994D68B107C23442 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1110,11 +1083,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B57FBCC413DC770312422A900F1314F5 /* Frameworks */ = {
+		ADC008C9CBE331CEA122E2C121E76812 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DB349C89C832BB8D8E72ED2EFF0C5FAC /* Foundation.framework in Frameworks */,
+				6300108429F5E7290E9FFB379701FEB5 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1316,6 +1289,29 @@
 			);
 			name = QSNetRequest;
 			path = QSNetRequest;
+			sourceTree = "<group>";
+		};
+		5F57E76096F92D75F041F5BB4390B4C8 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				966AA42878212207687E9A2A4DBCD618 /* Alamofire-iOS */,
+				9C3E149F9EAAFDA2D704A9FF4B6F0013 /* Alamofire-iOS-Alamofire */,
+				43DA6DFAA898F949ACBD91D709EF13F8 /* Alamofire-watchOS */,
+				5C03AF33B6584D671A28D25424906BA3 /* Alamofire-watchOS-Alamofire */,
+				03EAF387D3F93FE9BFB3FBBE88013D5E /* OptimizedSQLCipher */,
+				3D981F83E972A896E0DB9E8E4CCC1E0D /* Pods-QSApiAnalytics */,
+				4B9B59A1D3DA023BAF017A944078F07C /* Pods-QSApiAnalyticsWatch Watch App */,
+				AC2D25FA8F0FCB130BC8335AAC6C8F35 /* QSIpLocation-iOS */,
+				D39D99E589AED5DF06175EA69AD915EA /* QSIpLocation-watchOS */,
+				6B2BB12E928AD365AEB9E36792C16260 /* QSJsonParser-iOS */,
+				E63F0C6DB5F37647504090DA7F25AA26 /* QSJsonParser-watchOS */,
+				CC7C2C909BB4539EC897A0C5BFC9D44D /* QSModelConvert */,
+				2C5B2386519D8930D84D67BA45FBDDAB /* QSNetRequest-iOS */,
+				31C938C608EF63F461A6F62F3308A749 /* QSNetRequest-watchOS */,
+				579246C04F26182AFB74617FD37F1752 /* SQLiteRepair */,
+				A9F78B6B03C410DC81C832D0A522F750 /* WCDBSwift */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		70452F45DE13F05B22C945FB77300A79 /* Support Files */ = {
@@ -1700,28 +1696,6 @@
 			path = Alamofire;
 			sourceTree = "<group>";
 		};
-		AAD7BC0267855B1B3B40ED2BF79DACBE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				4E12E7E0010DE71D495EB59D083C0764 /* QSModelConvert-iOS.modulemap */,
-				8E5EB1FDF665390560992754E6BBC240 /* QSModelConvert-iOS-dummy.m */,
-				693CD98D35488079AD4412678A3257C8 /* QSModelConvert-iOS-Info.plist */,
-				E2B127C452516EEAD99168C149229EB2 /* QSModelConvert-iOS-prefix.pch */,
-				F99460D6C0A3E4D6B79B36BAC8E4D2C9 /* QSModelConvert-iOS-umbrella.h */,
-				2823F6102C04B114D847373B5EE81DBA /* QSModelConvert-iOS.debug.xcconfig */,
-				F7971790B0B53F3597F7DBDD8B795B13 /* QSModelConvert-iOS.release.xcconfig */,
-				43320E05B746669021010DC911F8348E /* QSModelConvert-watchOS.modulemap */,
-				C97EC914E9D58B73BECFAC9CBD4BE42A /* QSModelConvert-watchOS-dummy.m */,
-				DC9F3312052E485552AC84A1C093F774 /* QSModelConvert-watchOS-Info.plist */,
-				3F0245A8FF4EA960F09D166A8BB84749 /* QSModelConvert-watchOS-prefix.pch */,
-				E6DB63BAC8F20C6651820F2856EA075F /* QSModelConvert-watchOS-umbrella.h */,
-				CAF59B783D969725872C0E03D1E015E5 /* QSModelConvert-watchOS.debug.xcconfig */,
-				6F6D095A29A57675FDED1AA479F5D3BB /* QSModelConvert-watchOS.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/QSModelConvert-iOS";
-			sourceTree = "<group>";
-		};
 		B1737677060A242E9F421B713A84B874 /* QSJsonParser */ = {
 			isa = PBXGroup;
 			children = (
@@ -1739,12 +1713,27 @@
 				716FCC7C50BBF903AB622E40C2A54BB1 /* OptimizedSQLCipher */,
 				4856187CC1691436B995538E3A8409BF /* QSIpLocation */,
 				B1737677060A242E9F421B713A84B874 /* QSJsonParser */,
-				DA3781DCCE21E52BC40787D66A3B3780 /* QSModelConvert */,
+				CBAAD9872BC1DCBBCF011FE4B7C05604 /* QSModelConvert */,
 				5E775E56119F9943F4973361FF5F1341 /* QSNetRequest */,
 				A8EDFE0FA59B0EB0F89E157F04820815 /* SQLiteRepair */,
 				9F3BF54CF2CC732CC5B4DC019EC100EC /* WCDBSwift */,
 			);
 			name = Pods;
+			sourceTree = "<group>";
+		};
+		B884B88FFA97AF541C3CB66C20F81816 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				B51C300877C13B23AA627101E5ACDD99 /* QSModelConvert.modulemap */,
+				B680240213A79CDB49B1C8B3A6930487 /* QSModelConvert-dummy.m */,
+				596FC5EF94195A005770645EC15A53FA /* QSModelConvert-Info.plist */,
+				4F3F78205F9166250D069EBD51BAE2A1 /* QSModelConvert-prefix.pch */,
+				8A696E044DA8A1A01847521608AF3B51 /* QSModelConvert-umbrella.h */,
+				473490C4358E6A6AE01B4E7DD229876D /* QSModelConvert.debug.xcconfig */,
+				F956919AA1CB8141D994154D6E21289E /* QSModelConvert.release.xcconfig */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/QSModelConvert";
 			sourceTree = "<group>";
 		};
 		BF3774511BF559C20465360A43764557 /* Support Files */ = {
@@ -1762,49 +1751,25 @@
 			path = "../Target Support Files/OptimizedSQLCipher";
 			sourceTree = "<group>";
 		};
+		CBAAD9872BC1DCBBCF011FE4B7C05604 /* QSModelConvert */ = {
+			isa = PBXGroup;
+			children = (
+				B98D70DB37E655BAC9D222BCF44C28FF /* ModelConvert.swift */,
+				B884B88FFA97AF541C3CB66C20F81816 /* Support Files */,
+			);
+			name = QSModelConvert;
+			path = QSModelConvert;
+			sourceTree = "<group>";
+		};
 		CF1408CF629C7361332E53B88F7BD30C = {
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				55BE8E66F8F48B27832ACE88415B7A38 /* Frameworks */,
 				B5270B26CE831BA8E1DB37BF2D2982C2 /* Pods */,
-				F32026DFCC743B259D11F67EFE1629EF /* Products */,
+				5F57E76096F92D75F041F5BB4390B4C8 /* Products */,
 				1C53BFBA47C74185FC110101189CE7EE /* Targets Support Files */,
 			);
-			sourceTree = "<group>";
-		};
-		DA3781DCCE21E52BC40787D66A3B3780 /* QSModelConvert */ = {
-			isa = PBXGroup;
-			children = (
-				7822924D72FCD9E2F4ABA872CE2FDCA6 /* ModelConvert.swift */,
-				AAD7BC0267855B1B3B40ED2BF79DACBE /* Support Files */,
-			);
-			name = QSModelConvert;
-			path = QSModelConvert;
-			sourceTree = "<group>";
-		};
-		F32026DFCC743B259D11F67EFE1629EF /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				966AA42878212207687E9A2A4DBCD618 /* Alamofire-iOS */,
-				9C3E149F9EAAFDA2D704A9FF4B6F0013 /* Alamofire-iOS-Alamofire */,
-				43DA6DFAA898F949ACBD91D709EF13F8 /* Alamofire-watchOS */,
-				5C03AF33B6584D671A28D25424906BA3 /* Alamofire-watchOS-Alamofire */,
-				03EAF387D3F93FE9BFB3FBBE88013D5E /* OptimizedSQLCipher */,
-				3D981F83E972A896E0DB9E8E4CCC1E0D /* Pods-QSApiAnalytics */,
-				4B9B59A1D3DA023BAF017A944078F07C /* Pods-QSApiAnalyticsWatch Watch App */,
-				AC2D25FA8F0FCB130BC8335AAC6C8F35 /* QSIpLocation-iOS */,
-				D39D99E589AED5DF06175EA69AD915EA /* QSIpLocation-watchOS */,
-				6B2BB12E928AD365AEB9E36792C16260 /* QSJsonParser-iOS */,
-				E63F0C6DB5F37647504090DA7F25AA26 /* QSJsonParser-watchOS */,
-				31C1270DB62A49BA03D9A0CCD8BB0598 /* QSModelConvert-iOS */,
-				BF7168323B59B7B41EAF323A4F89152B /* QSModelConvert-watchOS */,
-				2C5B2386519D8930D84D67BA45FBDDAB /* QSNetRequest-iOS */,
-				31C938C608EF63F461A6F62F3308A749 /* QSNetRequest-watchOS */,
-				579246C04F26182AFB74617FD37F1752 /* SQLiteRepair */,
-				A9F78B6B03C410DC81C832D0A522F750 /* WCDBSwift */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -1843,11 +1808,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		762908BCFB0258720FB29FFEDA3B1ED7 /* Headers */ = {
+		6B8194461D8D5353BB062E55B2DDEEFF /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				82D9EDAF1A2CBF4E7AC0C5DADDC9EA36 /* Pods-QSApiAnalytics-umbrella.h in Headers */,
+				FCAF9A95EB79AA1C6289039ABABA7099 /* QSModelConvert-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1867,22 +1832,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		989311A6DAF94EFFA8933C2597FE91D6 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				C038D3D0A40B646575E1D843D73C5859 /* QSModelConvert-iOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		A2B4D417E412C039BE87EA0C3E569668 /* Headers */ = {
-			isa = PBXHeadersBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				9C6547121FEF1348B289F70D90F36BD6 /* QSModelConvert-watchOS-umbrella.h in Headers */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		A93CF4F48BCB81C914265E855DF03180 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -1891,11 +1840,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		BAE8500F60BB843A615778E6E0B5D024 /* Headers */ = {
+		BC5DE231E0A2FCE379F916B41D9087C7 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EB37232BE4C5A6AA1641D04885183FCD /* Pods-QSApiAnalyticsWatch Watch App-umbrella.h in Headers */,
+				D84FAD064708632C58D3F2AAD17D7183 /* Pods-QSApiAnalytics-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1930,6 +1879,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				B19D7DD3B1E63D97F403FD10C005B943 /* QSIpLocation-watchOS-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F8658FDBD7DEF062834F15EF48FBA407 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BC5EDEC0FFC0338D3028DAB926B8678A /* Pods-QSApiAnalyticsWatch Watch App-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -1985,24 +1942,24 @@
 /* Begin PBXNativeTarget section */
 		14585452A5E79792E88E586261D95892 /* Pods-QSApiAnalytics */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1B34F45003515357836874FD10B67B36 /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalytics" */;
+			buildConfigurationList = 44BEDA05106C6C40E65784DCD2A3F59A /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalytics" */;
 			buildPhases = (
-				762908BCFB0258720FB29FFEDA3B1ED7 /* Headers */,
-				E03E0B7FB96453FDE9D27BAE7419184D /* Sources */,
-				01ABD9E1A9E3DAB34BFD8883443FFF37 /* Frameworks */,
-				AAAF8EA591F59CE780C0D74B13659CDD /* Resources */,
+				BC5DE231E0A2FCE379F916B41D9087C7 /* Headers */,
+				2FAD01D6A0FB06DDEF74E36EF768D0F1 /* Sources */,
+				58954FC1795721640B91946A8E48A459 /* Frameworks */,
+				B94B24DF00B9C3F960D1A1EAC6C5CE77 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CBDBED9FE7D3AC86D7D81BDAC5810AC0 /* PBXTargetDependency */,
-				18C91A8CFB8A42C58EE37255F332BC7D /* PBXTargetDependency */,
-				9DA7E1669B8232705881A0D0BF5EE9E4 /* PBXTargetDependency */,
-				AFFE39630066E4632CC7AA66DD6D65BA /* PBXTargetDependency */,
-				5EF26647476A82269674723B70544105 /* PBXTargetDependency */,
-				A65594E594426EB8DF4400C217C65C7B /* PBXTargetDependency */,
-				CAACA8ECEAA3B4B37EC624BF5620DD9F /* PBXTargetDependency */,
-				B35C9D7B3CED023F3B0794B7C4CD8F90 /* PBXTargetDependency */,
+				C99A692251EB09A22B4B141A9A8A4396 /* PBXTargetDependency */,
+				4894A6494D59B7D0EF356CD92DBCB713 /* PBXTargetDependency */,
+				88006C747525B58D098F58BFF274D37A /* PBXTargetDependency */,
+				F127159258DDFDF3F919841476425ED8 /* PBXTargetDependency */,
+				4F8931A0FBD29AF56D49A93475752B78 /* PBXTargetDependency */,
+				5F5995AA0272E3A0ED113E7B455EF3D5 /* PBXTargetDependency */,
+				C2C1A0EDA3D4DD54B9B932DBC68F579A /* PBXTargetDependency */,
+				1306DC93F0739E2619AE1E9D0C2EE630 /* PBXTargetDependency */,
 			);
 			name = "Pods-QSApiAnalytics";
 			productName = Pods_QSApiAnalytics;
@@ -2027,24 +1984,6 @@
 			productReference = D39D99E589AED5DF06175EA69AD915EA /* QSIpLocation-watchOS */;
 			productType = "com.apple.product-type.framework";
 		};
-		328C14F5E90990440268305C9E3CFB25 /* QSModelConvert-iOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = BB5D46D76EC51E9C08928AD3477BB3FA /* Build configuration list for PBXNativeTarget "QSModelConvert-iOS" */;
-			buildPhases = (
-				989311A6DAF94EFFA8933C2597FE91D6 /* Headers */,
-				2AA691E667CEC981A8DC422B0698611D /* Sources */,
-				B57FBCC413DC770312422A900F1314F5 /* Frameworks */,
-				BD89A73FC15943C869B9015C9224B76C /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "QSModelConvert-iOS";
-			productName = QSModelConvert;
-			productReference = 31C1270DB62A49BA03D9A0CCD8BB0598 /* QSModelConvert-iOS */;
-			productType = "com.apple.product-type.framework";
-		};
 		3DA006BE7C09A815F339C353B899F880 /* QSNetRequest-watchOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = EF377E918ED12B14E30AEA60F1316891 /* Build configuration list for PBXNativeTarget "QSNetRequest-watchOS" */;
@@ -2063,24 +2002,6 @@
 			name = "QSNetRequest-watchOS";
 			productName = QSNetRequest;
 			productReference = 31C938C608EF63F461A6F62F3308A749 /* QSNetRequest-watchOS */;
-			productType = "com.apple.product-type.framework";
-		};
-		3FC4961665581D98FAB19167B3EEE376 /* QSModelConvert-watchOS */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 8B99825E995BCD7B1E0F0E55CC2E10CB /* Build configuration list for PBXNativeTarget "QSModelConvert-watchOS" */;
-			buildPhases = (
-				A2B4D417E412C039BE87EA0C3E569668 /* Headers */,
-				B51E4E78CBBB5EBE6F82CDBBE2CEFA6A /* Sources */,
-				24BC6EFE425011CC69CFA697E1E030E5 /* Frameworks */,
-				52CED82C4658B4AFB021E61D9D89D10B /* Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-			);
-			name = "QSModelConvert-watchOS";
-			productName = QSModelConvert;
-			productReference = BF7168323B59B7B41EAF323A4F89152B /* QSModelConvert-watchOS */;
 			productType = "com.apple.product-type.framework";
 		};
 		40F619F638ADF3CABB3C7C1C1298D722 /* Alamofire-iOS-Alamofire */ = {
@@ -2102,21 +2023,20 @@
 		};
 		5B55930233EB136ADBA186BD68153C77 /* Pods-QSApiAnalyticsWatch Watch App */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 93CF89E449959991557948CDF6F15C36 /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalyticsWatch Watch App" */;
+			buildConfigurationList = B8C2387EDD5910178D96656C273DE25C /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalyticsWatch Watch App" */;
 			buildPhases = (
-				BAE8500F60BB843A615778E6E0B5D024 /* Headers */,
-				FBCDBE70CD771AAF106D26FBD00B3F95 /* Sources */,
-				414F7860EA44B236BF4DC5A7DE7CF5D1 /* Frameworks */,
-				72E1A040CE4FF003F3951C0263922BAC /* Resources */,
+				F8658FDBD7DEF062834F15EF48FBA407 /* Headers */,
+				66A5489CDB05DAEB7B91F046B11842CF /* Sources */,
+				10F16262F1459407AF9B4D177464E158 /* Frameworks */,
+				23DAE6777500B0DD00EC7220DB6F084A /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				4122A90B7225EDF4A243CE6CECC579C8 /* PBXTargetDependency */,
-				E3642236A60362F5CD9034D1E9312946 /* PBXTargetDependency */,
-				402A1BF0A5082B9840834B8529DCD927 /* PBXTargetDependency */,
-				7CB36862F923EB047F6BADA30FDE1E17 /* PBXTargetDependency */,
-				8CDD2153853B0F12BDA46C62B1B1C7FD /* PBXTargetDependency */,
+				7C6DFF5290B960B672E0685F1FD0C553 /* PBXTargetDependency */,
+				ED551AEF59FB580F64250A98C0DB11BC /* PBXTargetDependency */,
+				7DB4F0A97B0CA2C1122AD36C66CBE208 /* PBXTargetDependency */,
+				B0090D2921F1139E181CAA6ACBB142B0 /* PBXTargetDependency */,
 			);
 			name = "Pods-QSApiAnalyticsWatch Watch App";
 			productName = Pods_QSApiAnalyticsWatch_Watch_App;
@@ -2252,6 +2172,24 @@
 			productReference = 5C03AF33B6584D671A28D25424906BA3 /* Alamofire-watchOS-Alamofire */;
 			productType = "com.apple.product-type.bundle";
 		};
+		D73BB1A2BD19DD383D0C064E8693CF42 /* QSModelConvert */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 933C914574A934C2BA32B20F0B79DD89 /* Build configuration list for PBXNativeTarget "QSModelConvert" */;
+			buildPhases = (
+				6B8194461D8D5353BB062E55B2DDEEFF /* Headers */,
+				DA92123AE828B81EFB6EBCC435D5882E /* Sources */,
+				ADC008C9CBE331CEA122E2C121E76812 /* Frameworks */,
+				7D789A1C2F40F50D7378FC16BF4A9375 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QSModelConvert;
+			productName = QSModelConvert;
+			productReference = CC7C2C909BB4539EC897A0C5BFC9D44D /* QSModelConvert */;
+			productType = "com.apple.product-type.framework";
+		};
 		EE4FEECC90DF88534F0D9B2712981B03 /* QSJsonParser-iOS */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = B2E6E24EAFA6A5C15F00E5A8392BE106 /* Build configuration list for PBXNativeTarget "QSJsonParser-iOS" */;
@@ -2283,7 +2221,7 @@
 			);
 			dependencies = (
 				EA19DEAA648C78A58FE3F457A2994675 /* PBXTargetDependency */,
-				64EF4DC3410A423EABB97E6D695E545F /* PBXTargetDependency */,
+				D5ACF7879269262CADA1F0C97F6022BC /* PBXTargetDependency */,
 			);
 			name = WCDBSwift;
 			productName = WCDBSwift;
@@ -2329,7 +2267,7 @@
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
 			minimizedProjectReferenceProxies = 0;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = F32026DFCC743B259D11F67EFE1629EF /* Products */;
+			productRefGroup = 5F57E76096F92D75F041F5BB4390B4C8 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -2344,8 +2282,7 @@
 				2E5A33E4F1D314E3DA3039D843DDA7BB /* QSIpLocation-watchOS */,
 				EE4FEECC90DF88534F0D9B2712981B03 /* QSJsonParser-iOS */,
 				776F4C7599C6DD736E1D653AD1E90704 /* QSJsonParser-watchOS */,
-				328C14F5E90990440268305C9E3CFB25 /* QSModelConvert-iOS */,
-				3FC4961665581D98FAB19167B3EEE376 /* QSModelConvert-watchOS */,
+				D73BB1A2BD19DD383D0C064E8693CF42 /* QSModelConvert */,
 				5EACE5B5871FE6F6919C3AAF866B2A0D /* QSNetRequest-iOS */,
 				3DA006BE7C09A815F339C353B899F880 /* QSNetRequest-watchOS */,
 				5C6B0F26314717A3E42915D883F70BB0 /* SQLiteRepair */,
@@ -2360,6 +2297,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				3727217C08E2C3184904EFB2421A4EAF /* PrivacyInfo.xcprivacy in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		23DAE6777500B0DD00EC7220DB6F084A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2386,25 +2330,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		52CED82C4658B4AFB021E61D9D89D10B /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		5DAB90A30AFD6723C0A6E3F97604610A /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				E5567C604F22FA981111560358F3AC94 /* PrivacyInfo.xcprivacy in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		72E1A040CE4FF003F3951C0263922BAC /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2416,6 +2346,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		7D12FBAB3D0E58DD1E84EF09A3345858 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D789A1C2F40F50D7378FC16BF4A9375 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2443,14 +2380,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		AAAF8EA591F59CE780C0D74B13659CDD /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		BD89A73FC15943C869B9015C9224B76C /* Resources */ = {
+		B94B24DF00B9C3F960D1A1EAC6C5CE77 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -2532,12 +2462,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		2AA691E667CEC981A8DC422B0698611D /* Sources */ = {
+		2FAD01D6A0FB06DDEF74E36EF768D0F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C0EA3B0EFE406B41519DF00BA74F2E2F /* ModelConvert.swift in Sources */,
-				E6CA2254F568628C3F283C448B3AB013 /* QSModelConvert-iOS-dummy.m in Sources */,
+				761CC496EFCF51B32B14B359C5EE3D5A /* Pods-QSApiAnalytics-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2687,6 +2616,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		66A5489CDB05DAEB7B91F046B11842CF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A392A6E569FA18DBF4B1113C4D227942 /* Pods-QSApiAnalyticsWatch Watch App-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		7FC1D64BA3E8EC78263519080DE4F1E7 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2820,15 +2757,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		B51E4E78CBBB5EBE6F82CDBBE2CEFA6A /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				EBF0E9E0969D989C1D39FD878C7A0123 /* ModelConvert.swift in Sources */,
-				DBE4679AAF2EDC4D1F5AB4AE15F35C27 /* QSModelConvert-watchOS-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		C46CC29AE7C9EDBE53274C4F949F8DCB /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -2898,19 +2826,12 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		E03E0B7FB96453FDE9D27BAE7419184D /* Sources */ = {
+		DA92123AE828B81EFB6EBCC435D5882E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				E0BB9262791A38FC753DE9AA02A0784A /* Pods-QSApiAnalytics-dummy.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		FBCDBE70CD771AAF106D26FBD00B3F95 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				72E1F10E5DEEF29E23FEE52C9D7954C9 /* Pods-QSApiAnalyticsWatch Watch App-dummy.m in Sources */,
+				80FD98E545667C049C982A26A395CFC4 /* ModelConvert.swift in Sources */,
+				BC37B88E9FB43AEA480F4D0387938A97 /* QSModelConvert-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -2923,11 +2844,11 @@
 			target = 40F619F638ADF3CABB3C7C1C1298D722 /* Alamofire-iOS-Alamofire */;
 			targetProxy = B129F31F3378072CF821C817DAB0D185 /* PBXContainerItemProxy */;
 		};
-		18C91A8CFB8A42C58EE37255F332BC7D /* PBXTargetDependency */ = {
+		1306DC93F0739E2619AE1E9D0C2EE630 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = OptimizedSQLCipher;
-			target = 6C224EE1E976ECB99682EFB21B16BF3C /* OptimizedSQLCipher */;
-			targetProxy = 4150F6D7C5F9B3700BEC4C79E1321B08 /* PBXContainerItemProxy */;
+			name = WCDBSwift;
+			target = F09A0938C688CA4BF49470F372732268 /* WCDBSwift */;
+			targetProxy = DC27E3E397F22897498027F36657047A /* PBXContainerItemProxy */;
 		};
 		2C2B2CB9D291FE49F8CF5D82BD88B63D /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2947,29 +2868,23 @@
 			target = FD8828BFC368157226E204A32CD5B6DE /* Alamofire-iOS */;
 			targetProxy = FE52A1C3F126654995108D39E90E916E /* PBXContainerItemProxy */;
 		};
-		402A1BF0A5082B9840834B8529DCD927 /* PBXTargetDependency */ = {
+		4894A6494D59B7D0EF356CD92DBCB713 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "QSJsonParser-watchOS";
-			target = 776F4C7599C6DD736E1D653AD1E90704 /* QSJsonParser-watchOS */;
-			targetProxy = 3EAFDDF7C0F4ADA17E0B38DC7A12EEAE /* PBXContainerItemProxy */;
+			name = OptimizedSQLCipher;
+			target = 6C224EE1E976ECB99682EFB21B16BF3C /* OptimizedSQLCipher */;
+			targetProxy = 747BC0B9C481878E8D5238607ADBED5A /* PBXContainerItemProxy */;
 		};
-		4122A90B7225EDF4A243CE6CECC579C8 /* PBXTargetDependency */ = {
+		4F8931A0FBD29AF56D49A93475752B78 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "Alamofire-watchOS";
-			target = 66F51BC925FD5FB829E8D422C690BDF0 /* Alamofire-watchOS */;
-			targetProxy = A83E6B255E45761570849D2B1446D439 /* PBXContainerItemProxy */;
+			name = QSModelConvert;
+			target = D73BB1A2BD19DD383D0C064E8693CF42 /* QSModelConvert */;
+			targetProxy = CCF637DCBDE0CC00727A425D50AB0287 /* PBXContainerItemProxy */;
 		};
-		5EF26647476A82269674723B70544105 /* PBXTargetDependency */ = {
+		5F5995AA0272E3A0ED113E7B455EF3D5 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "QSModelConvert-iOS";
-			target = 328C14F5E90990440268305C9E3CFB25 /* QSModelConvert-iOS */;
-			targetProxy = 3BC962E5831C371210D6FF76F2A19531 /* PBXContainerItemProxy */;
-		};
-		64EF4DC3410A423EABB97E6D695E545F /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = SQLiteRepair;
-			target = 5C6B0F26314717A3E42915D883F70BB0 /* SQLiteRepair */;
-			targetProxy = 01F9CA9C72AA840BD289E6BE79EDF617 /* PBXContainerItemProxy */;
+			name = "QSNetRequest-iOS";
+			target = 5EACE5B5871FE6F6919C3AAF866B2A0D /* QSNetRequest-iOS */;
+			targetProxy = 836ACC8EAD91E1059EB2DB344EBF7D80 /* PBXContainerItemProxy */;
 		};
 		7A6ECA77F824444D3371265391C13033 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -2977,35 +2892,29 @@
 			target = C410F16B9F0DF009BEF82613DC11879D /* Alamofire-watchOS-Alamofire */;
 			targetProxy = BB018DB62E6D334A8EB144A5F86E316A /* PBXContainerItemProxy */;
 		};
-		7CB36862F923EB047F6BADA30FDE1E17 /* PBXTargetDependency */ = {
+		7C6DFF5290B960B672E0685F1FD0C553 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "QSModelConvert-watchOS";
-			target = 3FC4961665581D98FAB19167B3EEE376 /* QSModelConvert-watchOS */;
-			targetProxy = D18FA7FD326A34F227055ACD51684798 /* PBXContainerItemProxy */;
+			name = "Alamofire-watchOS";
+			target = 66F51BC925FD5FB829E8D422C690BDF0 /* Alamofire-watchOS */;
+			targetProxy = B5FA6F9D4B60AC955EE4645323EE1FB1 /* PBXContainerItemProxy */;
 		};
-		8CDD2153853B0F12BDA46C62B1B1C7FD /* PBXTargetDependency */ = {
+		7DB4F0A97B0CA2C1122AD36C66CBE208 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "QSNetRequest-watchOS";
-			target = 3DA006BE7C09A815F339C353B899F880 /* QSNetRequest-watchOS */;
-			targetProxy = B2005CA4ED864322898CA70069133160 /* PBXContainerItemProxy */;
+			name = "QSJsonParser-watchOS";
+			target = 776F4C7599C6DD736E1D653AD1E90704 /* QSJsonParser-watchOS */;
+			targetProxy = F57C03D972775154758056883CCFFA93 /* PBXContainerItemProxy */;
 		};
-		9DA7E1669B8232705881A0D0BF5EE9E4 /* PBXTargetDependency */ = {
+		88006C747525B58D098F58BFF274D37A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "QSIpLocation-iOS";
 			target = 7026ED5A437B94F65CA9D36FB40151DD /* QSIpLocation-iOS */;
-			targetProxy = 1F0412939F42DCB90E3FC9639A2B46DB /* PBXContainerItemProxy */;
+			targetProxy = 28DBB9CFEF08AF31A1E55F6D85048BE4 /* PBXContainerItemProxy */;
 		};
-		A65594E594426EB8DF4400C217C65C7B /* PBXTargetDependency */ = {
+		B0090D2921F1139E181CAA6ACBB142B0 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "QSNetRequest-iOS";
-			target = 5EACE5B5871FE6F6919C3AAF866B2A0D /* QSNetRequest-iOS */;
-			targetProxy = 30275A491D12819BACD60DE6B48D6345 /* PBXContainerItemProxy */;
-		};
-		AFFE39630066E4632CC7AA66DD6D65BA /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "QSJsonParser-iOS";
-			target = EE4FEECC90DF88534F0D9B2712981B03 /* QSJsonParser-iOS */;
-			targetProxy = 5D7D5B24590BC7B0E07A03CEEDBAD38A /* PBXContainerItemProxy */;
+			name = "QSNetRequest-watchOS";
+			target = 3DA006BE7C09A815F339C353B899F880 /* QSNetRequest-watchOS */;
+			targetProxy = B1D94B745F3D3AB546CA44F4C8ED4CEC /* PBXContainerItemProxy */;
 		};
 		B020F30E607DF4A2B702F4F671AA7F11 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3013,29 +2922,23 @@
 			target = 6C224EE1E976ECB99682EFB21B16BF3C /* OptimizedSQLCipher */;
 			targetProxy = 21649DE26875B7CFC8CD7104E7248405 /* PBXContainerItemProxy */;
 		};
-		B35C9D7B3CED023F3B0794B7C4CD8F90 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = WCDBSwift;
-			target = F09A0938C688CA4BF49470F372732268 /* WCDBSwift */;
-			targetProxy = 08C7C9B43195A8E31D1E034FE673D95E /* PBXContainerItemProxy */;
-		};
-		CAACA8ECEAA3B4B37EC624BF5620DD9F /* PBXTargetDependency */ = {
+		C2C1A0EDA3D4DD54B9B932DBC68F579A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SQLiteRepair;
 			target = 5C6B0F26314717A3E42915D883F70BB0 /* SQLiteRepair */;
-			targetProxy = 2ED423A121EF969830E93FF9677777BC /* PBXContainerItemProxy */;
+			targetProxy = 4C00E343B445C3800D64B88EE4D2351C /* PBXContainerItemProxy */;
 		};
-		CBDBED9FE7D3AC86D7D81BDAC5810AC0 /* PBXTargetDependency */ = {
+		C99A692251EB09A22B4B141A9A8A4396 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Alamofire-iOS";
 			target = FD8828BFC368157226E204A32CD5B6DE /* Alamofire-iOS */;
-			targetProxy = 4D2F481DF4074D02CBE6DD0FF3390F3A /* PBXContainerItemProxy */;
+			targetProxy = D3C5E11E4A4EC7F7CCC414F7E71CF8B2 /* PBXContainerItemProxy */;
 		};
-		E3642236A60362F5CD9034D1E9312946 /* PBXTargetDependency */ = {
+		D5ACF7879269262CADA1F0C97F6022BC /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			name = "QSIpLocation-watchOS";
-			target = 2E5A33E4F1D314E3DA3039D843DDA7BB /* QSIpLocation-watchOS */;
-			targetProxy = 787B75B3C2009877518B2703794B5AEC /* PBXContainerItemProxy */;
+			name = SQLiteRepair;
+			target = 5C6B0F26314717A3E42915D883F70BB0 /* SQLiteRepair */;
+			targetProxy = 75FAFEF91BC6DDF30906A4B353A124EE /* PBXContainerItemProxy */;
 		};
 		EA19DEAA648C78A58FE3F457A2994675 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
@@ -3049,15 +2952,26 @@
 			target = EE4FEECC90DF88534F0D9B2712981B03 /* QSJsonParser-iOS */;
 			targetProxy = 3BD109445936C708B4381B3294DE6DEC /* PBXContainerItemProxy */;
 		};
+		ED551AEF59FB580F64250A98C0DB11BC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QSIpLocation-watchOS";
+			target = 2E5A33E4F1D314E3DA3039D843DDA7BB /* QSIpLocation-watchOS */;
+			targetProxy = 315DB7F503B639706921104D0CE99132 /* PBXContainerItemProxy */;
+		};
+		F127159258DDFDF3F919841476425ED8 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "QSJsonParser-iOS";
+			target = EE4FEECC90DF88534F0D9B2712981B03 /* QSJsonParser-iOS */;
+			targetProxy = EAADE99263C778609F0AE3E40866762B /* PBXContainerItemProxy */;
+		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		0ACCFA3ED0DCEC24937E0FD0CE7A1DA6 /* Release */ = {
+		02D939CA425D19060AE5D8CB6CD02755 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = CDE6D8F2EB01314863CFB82923C7DB63 /* Pods-QSApiAnalyticsWatch Watch App.release.xcconfig */;
+			baseConfigurationReference = 473490C4358E6A6AE01B4E7DD229876D /* QSModelConvert.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
+				CLANG_ENABLE_OBJC_WEAK = NO;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3068,27 +2982,67 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-Info.plist";
+				GCC_PREFIX_HEADER = "Target Support Files/QSModelConvert/QSModelConvert-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/QSModelConvert/QSModelConvert-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QSModelConvert/QSModelConvert.modulemap";
+				PRODUCT_MODULE_NAME = QSModelConvert;
+				PRODUCT_NAME = QSModelConvert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		0DE10E83D5534DC407A1F71B0F707EE4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0FD36720EE8B6746085F9C5D9E288F2D /* Pods-QSApiAnalytics.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				INFOPLIST_FILE = "Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
 				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App.modulemap";
+				MODULEMAP_FILE = "Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics.modulemap";
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
 				PODS_ROOT = "$(SRCROOT)";
 				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
+				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
 			name = Release;
 		};
@@ -3209,45 +3163,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Release;
-		};
-		190C187CEAFECB40D94C85047F7EC693 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A7481C490EA08CF4375AEAB48AE26B99 /* Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 11.0;
-			};
-			name = Debug;
 		};
 		1D2054598BB91D0E6755D61824ECBABF /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -3446,11 +3361,12 @@
 			};
 			name = Release;
 		};
-		364CD11396406727341B10C15983789A /* Debug */ = {
+		346A2CA97B0C15C5D77894BE10858F19 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2823F6102C04B114D847373B5EE81DBA /* QSModelConvert-iOS.debug.xcconfig */;
+			baseConfigurationReference = CDE6D8F2EB01314863CFB82923C7DB63 /* Pods-QSApiAnalyticsWatch Watch App.release.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3461,29 +3377,29 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/QSModelConvert-iOS/QSModelConvert-iOS-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/QSModelConvert-iOS/QSModelConvert-iOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QSModelConvert-iOS/QSModelConvert-iOS.modulemap";
-				PRODUCT_MODULE_NAME = QSModelConvert;
-				PRODUCT_NAME = QSModelConvert;
-				SDKROOT = iphoneos;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 4;
+				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
-			name = Debug;
+			name = Release;
 		};
 		3692A4CB7BAE59E576BF81D1045B812D /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -3561,46 +3477,6 @@
 				VALIDATE_PRODUCT = YES;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
-		47FAD7329B3BF7CCF11D57071B9332C1 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 6F6D095A29A57675FDED1AA479F5D3BB /* QSModelConvert-watchOS.release.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/QSModelConvert-watchOS/QSModelConvert-watchOS-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/QSModelConvert-watchOS/QSModelConvert-watchOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/QSModelConvert-watchOS/QSModelConvert-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = QSModelConvert;
-				PRODUCT_NAME = QSModelConvert;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = 4;
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
 			};
 			name = Release;
 		};
@@ -3858,6 +3734,46 @@
 			};
 			name = Debug;
 		};
+		79DCF9D18EECDAD2F0A7EC7E1DCA7AA0 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F956919AA1CB8141D994154D6E21289E /* QSModelConvert.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_MODULE_VERIFIER = NO;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GCC_PREFIX_HEADER = "Target Support Files/QSModelConvert/QSModelConvert-prefix.pch";
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = "Target Support Files/QSModelConvert/QSModelConvert-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/QSModelConvert/QSModelConvert.modulemap";
+				PRODUCT_MODULE_NAME = QSModelConvert;
+				PRODUCT_NAME = QSModelConvert;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_INSTALL_OBJC_HEADER = YES;
+				SWIFT_VERSION = 5;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		80830EA346853CC93C79A7BB60D4ACF0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 1D9BC65C6EA95641C362D162A92A29F5 /* Alamofire-iOS.debug.xcconfig */;
@@ -3875,11 +3791,12 @@
 			};
 			name = Debug;
 		};
-		8D3E9DFA3DA6405C4A638333394A9DCC /* Release */ = {
+		8B23461838641B8248EA1C72C2A75022 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = F7971790B0B53F3597F7DBDD8B795B13 /* QSModelConvert-iOS.release.xcconfig */;
+			baseConfigurationReference = A7481C490EA08CF4375AEAB48AE26B99 /* Pods-QSApiAnalyticsWatch Watch App.debug.xcconfig */;
 			buildSettings = {
-				CLANG_ENABLE_OBJC_WEAK = NO;
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				APPLICATION_EXTENSION_API_ONLY = YES;
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
@@ -3890,30 +3807,28 @@
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				ENABLE_MODULE_VERIFIER = NO;
 				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/QSModelConvert-iOS/QSModelConvert-iOS-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/QSModelConvert-iOS/QSModelConvert-iOS-Info.plist";
+				INFOPLIST_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-Info.plist";
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 					"@loader_path/Frameworks",
 				);
-				MODULEMAP_FILE = "Target Support Files/QSModelConvert-iOS/QSModelConvert-iOS.modulemap";
-				PRODUCT_MODULE_NAME = QSModelConvert;
-				PRODUCT_NAME = QSModelConvert;
-				SDKROOT = iphoneos;
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = watchos;
 				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
+				TARGETED_DEVICE_FAMILY = 4;
 				VERSIONING_SYSTEM = "apple-generic";
 				VERSION_INFO_PREFIX = "";
+				WATCHOS_DEPLOYMENT_TARGET = 11.0;
 			};
-			name = Release;
+			name = Debug;
 		};
 		8F705B8F85B4DB5E6F6B3914D634E9C2 /* Release */ = {
 			isa = XCBuildConfiguration;
@@ -4149,45 +4064,6 @@
 			};
 			name = Debug;
 		};
-		D55D1735DD31E6C1454C039691916162 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = CAF59B783D969725872C0E03D1E015E5 /* QSModelConvert-watchOS.debug.xcconfig */;
-			buildSettings = {
-				APPLICATION_EXTENSION_API_ONLY = YES;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				GCC_PREFIX_HEADER = "Target Support Files/QSModelConvert-watchOS/QSModelConvert-watchOS-prefix.pch";
-				GENERATE_INFOPLIST_FILE = NO;
-				INFOPLIST_FILE = "Target Support Files/QSModelConvert-watchOS/QSModelConvert-watchOS-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MODULEMAP_FILE = "Target Support Files/QSModelConvert-watchOS/QSModelConvert-watchOS.modulemap";
-				PRODUCT_MODULE_NAME = QSModelConvert;
-				PRODUCT_NAME = QSModelConvert;
-				SDKROOT = watchos;
-				SKIP_INSTALL = YES;
-				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
-				SWIFT_INSTALL_OBJC_HEADER = YES;
-				SWIFT_VERSION = 5;
-				TARGETED_DEVICE_FAMILY = 4;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-				WATCHOS_DEPLOYMENT_TARGET = 8.0;
-			};
-			name = Debug;
-		};
 		E015C582CE535120BF3C7A320A154C26 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -4255,7 +4131,7 @@
 			};
 			name = Debug;
 		};
-		E7994D4320B1024ED3CD0F3B190C364C /* Debug */ = {
+		EA30125A60EC2312B13B744C85E178DA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 0F377AA7B71682A9A7D8929E5B8CB57B /* Pods-QSApiAnalytics.debug.xcconfig */;
 			buildSettings = {
@@ -4332,46 +4208,6 @@
 			};
 			name = Debug;
 		};
-		EE6C8DF7A71BD3068B1C0E550C880567 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 0FD36720EE8B6746085F9C5D9E288F2D /* Pods-QSApiAnalytics.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				ENABLE_MODULE_VERIFIER = NO;
-				ENABLE_USER_SCRIPT_SANDBOXING = NO;
-				INFOPLIST_FILE = "Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 15.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
-		};
 		F004D6E924692C5CBE173C3B72E62F55 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CFBE7B4E71AFB18A07B405C50C238C4E /* Alamofire-iOS.release.xcconfig */;
@@ -4441,15 +4277,6 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1B34F45003515357836874FD10B67B36 /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalytics" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E7994D4320B1024ED3CD0F3B190C364C /* Debug */,
-				EE6C8DF7A71BD3068B1C0E550C880567 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		20B073ED2025B35993FC9A5B1137AF94 /* Build configuration list for PBXNativeTarget "Alamofire-watchOS-Alamofire" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4477,6 +4304,15 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
+		44BEDA05106C6C40E65784DCD2A3F59A /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalytics" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EA30125A60EC2312B13B744C85E178DA /* Debug */,
+				0DE10E83D5534DC407A1F71B0F707EE4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -4486,20 +4322,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		8B99825E995BCD7B1E0F0E55CC2E10CB /* Build configuration list for PBXNativeTarget "QSModelConvert-watchOS" */ = {
+		933C914574A934C2BA32B20F0B79DD89 /* Build configuration list for PBXNativeTarget "QSModelConvert" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				D55D1735DD31E6C1454C039691916162 /* Debug */,
-				47FAD7329B3BF7CCF11D57071B9332C1 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		93CF89E449959991557948CDF6F15C36 /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalyticsWatch Watch App" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				190C187CEAFECB40D94C85047F7EC693 /* Debug */,
-				0ACCFA3ED0DCEC24937E0FD0CE7A1DA6 /* Release */,
+				02D939CA425D19060AE5D8CB6CD02755 /* Debug */,
+				79DCF9D18EECDAD2F0A7EC7E1DCA7AA0 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
@@ -4540,11 +4367,11 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		BB5D46D76EC51E9C08928AD3477BB3FA /* Build configuration list for PBXNativeTarget "QSModelConvert-iOS" */ = {
+		B8C2387EDD5910178D96656C273DE25C /* Build configuration list for PBXNativeTarget "Pods-QSApiAnalyticsWatch Watch App" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				364CD11396406727341B10C15983789A /* Debug */,
-				8D3E9DFA3DA6405C4A638333394A9DCC /* Release */,
+				8B23461838641B8248EA1C72C2A75022 /* Debug */,
+				346A2CA97B0C15C5D77894BE10858F19 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
