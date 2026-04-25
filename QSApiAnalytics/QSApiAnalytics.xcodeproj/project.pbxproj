@@ -61,7 +61,6 @@
 				Tool/ApiAnalytics.swift,
 				Tool/ApiAnalyticsErrorEventDatabase.swift,
 				Tool/ApiAnalyticsModel.swift,
-				Tool/JsonParser.swift,
 			);
 			target = 1F177B172EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */;
 		};
@@ -79,8 +78,6 @@
 		};
 		1F177B192EFA7093008B8697 /* QSApiAnalyticsWatch Watch App */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-			);
 			path = "QSApiAnalyticsWatch Watch App";
 			sourceTree = "<group>";
 		};
@@ -259,9 +256,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalytics/Pods-QSApiAnalytics-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -298,9 +299,13 @@
 			inputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-frameworks-${CONFIGURATION}-input-files.xcfilelist",
 			);
+			inputPaths = (
+			);
 			name = "[CP] Embed Pods Frameworks";
 			outputFileListPaths = (
 				"${PODS_ROOT}/Target Support Files/Pods-QSApiAnalyticsWatch Watch App/Pods-QSApiAnalyticsWatch Watch App-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			outputPaths = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
