@@ -1,6 +1,6 @@
 Pod::Spec.new do |spec|
   spec.name         = "QSApiAnalytics"
-  spec.version      = "1.1.6"
+  spec.version      = "1.1.7"
   spec.summary      = "Api打点"
   spec.description  = "Api打点分析"
   spec.homepage     = "https://github.com/fallpine/QSApiAnalytics"
