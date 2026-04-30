@@ -123,6 +123,11 @@ public class ApiAnalytics {
         sessionId = UUID().uuidString
     }
     
+    /// 获取当前sessionId
+    public func getSessionId() -> String {
+      return sessionId
+    }
+    
     /// 获取当前页面信息。
     /// - Returns: 当前页面编码、名称和扩展参数；没有页面记录时返回 `nil`。
     public func getCurrentPageData() -> [String: Any]? {
